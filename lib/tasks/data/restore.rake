@@ -18,7 +18,7 @@ namespace :data do
     def restore_model(model, fields)
       model.delete_all
       filename = DataBackupHelper.construct_filename(model.table_name)
-      puts "Restoring #{model} data to #{filename}."
+      puts "Restoring #{model} data from #{filename}."
       data = load_yaml_into_memory(filename)
       load_into_database(data, model, fields)
     end
