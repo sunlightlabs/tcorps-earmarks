@@ -77,6 +77,14 @@ div.content div.success_message {
   border: 5px solid #00A000;
 }
 
+form fieldset {
+  border: 1px solid #808080;
+  margin: 10px 0;
+}
+
+form fieldset legend {
+  margin: 0 0 0 10px;
+}
 
 form div.field {
   margin: 0.5em 0;

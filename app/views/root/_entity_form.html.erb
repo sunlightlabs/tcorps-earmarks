@@ -1,18 +1,25 @@
+<% entity_id = 0 %>
 <% letter_form.fields_for :entities do |entity_form| %>
-  <div class="field">
-    <%= entity_form.label :name, "Entity Name" %>
-    <%= entity_form.text_field :name %>
-  </div>
-  <div class="field">
-    <%= entity_form.label :address, "Entity Address" %>
-    <%= entity_form.text_field :address %>
-  </div>
-  <% unless entity_form.object.new_record? %>
-    <div>
-      <%= entity_form.label :_delete, 'Remove' %>
-      <%= entity_form.check_box :_delete %>
+  <fieldset>
+    <legend>
+      Receiving Entity #<%= entity_id + 1 %>
+    </legend>
+    <div class="field">
+      <%= entity_form.label :name, "Name" %>
+      <%= entity_form.text_field :name %>
     </div>
-  <% end %>
+    <div class="field">
+      <%= entity_form.label :address, "Address" %>
+      <%= entity_form.text_field :address %>
+    </div>
+    <% unless entity_id == 0 %>
+      <div class="field">
+        <label>&nbsp;</label>
+        <%= letter_form.submit 'Delete this entity', :name => "delete_entity[#{entity_id}]" %>
+      </div>
+    <% end %>
+  </fieldset>
+  <% entity_id += 1 %>
 <% end %>
 <div class="field">
   <label>&nbsp;</label>
