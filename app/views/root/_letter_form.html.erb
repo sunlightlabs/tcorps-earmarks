@@ -1,0 +1,31 @@
+<% form_for letter, :url => { :action => :create } do |f| %>
+  <%= f.error_messages %>
+  <div class="field">
+    <%= f.label :amount, "Amount" %>
+    <%= f.text_field :amount, :size => 10 %>
+  </div>
+  <div class="field">
+    <%= f.label :project_title, "Title of Project" %>
+    <%= f.text_field :project_title, :size => 25 %>
+  </div>
+  <div class="field">
+    <%= f.label :fiscal_year, "Fiscal Year" %>
+    <%= f.select :fiscal_year, [nil, 2008, 2009, 2010] %>
+  </div>
+  <%= render :partial => "entity_form", :locals => { :letter_form => f } %>
+  <div class="field">
+    <%= f.label :funding_purpose, "Purpose of Funding" %>
+    <%= f.text_area :funding_purpose, :rows => 4, :cols => 25 %>
+  </div>
+  <div class="field">
+    <%= f.label :taxpayer_justification, "Taxpayer Justification" %>
+    <%= f.text_area :taxpayer_justification, :rows => 6, :cols => 25 %>
+  </div>
+  <%= f.hidden_field :user_id %>
+  <%= f.hidden_field :source_doc_id %>
+  <%= f.hidden_field :task_key %>
+  <div class="field">
+    <label>&nbsp;</label>
+    <%= f.submit 'Submit' %>
+  </div>
+<% end %>

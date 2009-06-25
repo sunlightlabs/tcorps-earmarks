@@ -124,9 +124,7 @@ form div.fieldWithErrors label {
   color: #A00000;
 }
 
-form div.fieldWithErrors input {
-  border-color: #A00000;
-}
+form div.fieldWithErrors input {}
 
 div.clear_floats {
   clear: both;

@@ -1,0 +1,20 @@
+<% letter_form.fields_for :entities do |entity_form| %>
+  <div class="field">
+    <%= entity_form.label :name, "Entity Name" %>
+    <%= entity_form.text_field :name %>
+  </div>
+  <div class="field">
+    <%= entity_form.label :address, "Entity Address" %>
+    <%= entity_form.text_field :address %>
+  </div>
+  <% unless entity_form.object.new_record? %>
+    <div>
+      <%= entity_form.label :_delete, 'Remove' %>
+      <%= entity_form.check_box :_delete %>
+    </div>
+  <% end %>
+<% end %>
+<div class="field">
+  <label>&nbsp;</label>
+  <%= letter_form.submit 'Add another entity', :name => "add_new_entity" %>
+</div>

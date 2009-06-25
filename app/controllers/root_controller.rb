@@ -1,5 +1,5 @@
 class RootController < ApplicationController
-  
+
   def index
     @source_doc = SortingHat.get_source_doc
     @user = User.find_or_create_by_name(params["username"])
@@ -8,12 +8,19 @@ class RootController < ApplicationController
       :user_id       => @user.id,
       :task_key      => params["task_key"]
     )
+    @letter.entities << Entity.new
     setup_form_vars
   end
-  
+
   def create
     @letter = Letter.new(clean_letter_params(params[:letter]))
-    if @letter.save
+    if params["add_new_entity"]
+      @letter.entities << Entity.new
+      @source_doc = @letter.source_doc
+      setup_form_vars
+      flash.now[:notice] = "Added a new entity"
+      render :action => :index
+    elsif @letter.save
       report_completion
       redirect_to :action => :success
     else
@@ -23,7 +30,7 @@ class RootController < ApplicationController
       render :action => :index
     end
   end
-  
+
   def success
   end
   
@@ -52,7 +59,10 @@ class RootController < ApplicationController
       :taxpayer_justification,
       :user_id,
       :source_doc_id,
-      :task_key
+      :task_key,
+      # And finally, because of:
+      #   accepts_nested_attributes_for :entities
+      :entities_attributes
     ])
   end
   

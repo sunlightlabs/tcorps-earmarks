@@ -16,7 +16,9 @@ class Letter < ActiveRecord::Base
   validates_presence_of :task_key
 
   before_validation :validate_amount
-  
+
+  accepts_nested_attributes_for :entities
+
   protected
   
   def validate_amount

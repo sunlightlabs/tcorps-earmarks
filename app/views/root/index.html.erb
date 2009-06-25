@@ -21,14 +21,7 @@
     <% end %>
     <h2>Help Us Gather Data</h2>
     <p>Please fill out as much as you can:</p>
-    <% form_for @letter, :url => { :action => :create } do |f| %>
-      <%= f.error_messages %>
-      <%= render :partial => "form", :object => f %>
-      <div class="field">
-        <label>&nbsp;</label>
-        <%= f.submit 'Submit' %>
-      </div>
-    <% end %>
+    <%= render :partial => "letter_form", :locals => { :letter => @letter } %>
     <%= render :partial => "user_message" %>
   </div>
 </div>
