@@ -101,10 +101,6 @@ namespace :data do
       end
       puts "Updated #{count} of #{all_source_docs.length} SourceDoc plain_text fields."
     end
-
-    def scribd_url(doc_id)
-      "http://www.scribd.com/doc/#{doc_id}"
-    end
   
     def make_title(string)
       string.sub(".pdf", "")

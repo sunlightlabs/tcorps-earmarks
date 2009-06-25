@@ -39,6 +39,13 @@ div.column_1 {
   padding: 5px 0 0 0;
 }
 
+div.source_doc_url {
+  margin-top: 10px;
+  border-top: 1px dotted #808080;
+  font-size: 12px;
+  text-align: center;
+}
+
 div.column_2 {
   float: left;
   width: 40%;
