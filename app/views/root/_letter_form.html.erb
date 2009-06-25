@@ -2,7 +2,7 @@
   <%= f.error_messages %>
   <div class="field">
     <%= f.label :amount, "Amount" %>
-    <%= f.text_field :amount, :size => 10 %>
+    <%= f.text_field :amount, :size => 10, :value => number_to_currency(letter.amount) %>
   </div>
   <div class="field">
     <%= f.label :project_title, "Title of Project" %>
