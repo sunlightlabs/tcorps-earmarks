@@ -1,0 +1,22 @@
+<div class="field">
+  <%= form.label :amount, "Amount" %>
+  <%= form.text_field :amount, :size => 10 %>
+</div>
+<div class="field">
+  <%= form.label :project_title, "Title of Project" %>
+  <%= form.text_field :project_title, :size => 25 %>
+</div>
+<div class="field">
+  <%= form.label :fiscal_year, "Fiscal Year" %>
+  <%= form.select :fiscal_year, [nil, 2008, 2009, 2010] %>
+</div>
+<div class="field">
+  <%= form.label :funding_purpose, "Purpose of Funding" %>
+  <%= form.text_area :funding_purpose, :rows => 4, :cols => 25 %>
+</div>
+<div class="field">
+  <%= form.label :taxpayer_justification, "Taxpayer Justification" %>
+  <%= form.text_area :taxpayer_justification, :rows => 6, :cols => 25 %>
+</div>
+<%= form.hidden_field :source_doc_id %>
+<%= form.hidden_field :task_key %>

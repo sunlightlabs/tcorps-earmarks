@@ -1,0 +1,88 @@
+require 'open-uri'
+
+namespace :data do
+  
+  namespace :directory do
+    
+    LEGISLATOR_URLS = "#{RAILS_ROOT}/data/earmark_letter_sources.yml"
+    LETTER_URLS_DIR = "#{RAILS_ROOT}/data/generated"
+    
+    desc "Reset directory; destroys YAML, SourceDoc, Legislator databases."
+    task :reset => [:fetch, :refresh_db]
+
+    desc "Refresh the Legislator and SourceDoc databases."
+    task :refresh_db => [:delete_db, :load_into_db]
+
+    desc "Delete all rows from SourceDoc & Legislator"
+    task :delete_db => :environment do
+      puts "Deleting all rows in #{SourceDoc.table_name} and #{Legislator.table_name}."
+      SourceDoc.delete_all
+      Legislator.delete_all
+    end
+    
+    # Note: the "fetch" and "load_into_db" tasks are highly coupled!
+    
+    desc "Fetch earmark request letter URLs and save to YAML."
+    task :fetch => :environment do
+      puts "Loading list of URLs where we can find earmark request letters."
+      legislators = YAML::load_file(LEGISLATOR_URLS)
+      puts "Found #{legislators.length} URLs."
+
+      legislators.each do |legislator_name, hash|
+        puts "  -- %s --" % legislator_name
+        url = hash["url"]
+        css_rule = hash["css_rule"]
+
+        puts "    Getting #{url}."
+        doc = Nokogiri::HTML(open(URI.encode(url)))
+        puts "    Parsing using '%s'" % css_rule
+        nodes = doc.css(css_rule)
+        puts "    Found #{nodes.length} matches."
+
+        letters = []
+        nodes.each do |node|
+          letters << {
+            "href"    => node["href"],
+            "content" => node.content
+          }
+        end
+
+        out_filename = "%s.yml" % File.join(LETTER_URLS_DIR, legislator_name)
+        puts "    Saving results to %s" % out_filename
+        FileUtils.mkdir_p(LETTER_URLS_DIR)
+        File.open(out_filename, "w") do |outfile|
+          YAML.dump({ legislator_name => letters }, outfile)
+        end
+      end
+      puts "Done fetching earmark request letters."
+    end
+
+    desc "Populate database using YAML file(s)."
+    task :load_into_db => :environment do
+      filenames = Dir.glob(File.join(LETTER_URLS_DIR, "*.yml"))
+      puts "Populating #{SourceDoc.table_name} with Earmark Request Letter info."
+      puts "Will read from #{filenames.length} files."
+      filenames.each do |filename|
+        puts "  Reading file named #{filename}"
+        data = YAML::load_file(filename)
+        data.each do |legislator_name, letters|
+          puts "    Creating Legislator named #{legislator_name}."
+          legislator = Legislator.create!(
+            :name => legislator_name
+          )
+          puts "    Writing letters to #{SourceDoc.table_name}."
+          letters.each do |letter|
+            SourceDoc.create!(
+              :title      => make_title(letter["content"]),
+              :source_url => letter["href"],
+              :legislator => legislator
+            )
+          end
+        end
+      end
+      puts "Done loading data into #{SourceDoc.table_name}."
+    end
+
+  end
+  
+end

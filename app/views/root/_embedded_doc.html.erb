@@ -1,0 +1,52 @@
+<%
+  query = {
+    "document_id"          => @source_doc.scribd_doc_id,
+    "access_key"           => @source_doc.access_key,
+    "page"                 => 1,
+    "version"              => 1,
+    "viewMode"             => "",
+    "disable_related_docs" => "true",
+  }.map { |k, v| "#{k}=#{v}" }.join("&")
+%>
+<object
+    codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0"
+    classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+    align="middle"
+    height="425"
+    width="100%"
+    rel="media:document"
+    resource="http://d.scribd.com/ScribdViewer.swf?<%= query %>"
+    xmlns:media="http://search.yahoo.com/searchmonkey/media/"
+    xmlns:dc="http://purl.org/dc/terms/">
+        <param name="movie" value="http://d.scribd.com/ScribdViewer.swf?<%= query %>"
+        <param name="quality" value="high">
+        <param name="play" value="true">
+        <param name="loop" value="true">
+        <param name="scale" value="showall">
+        <param name="wmode" value="opaque">
+        <param name="devicefont" value="false">
+        <param name="bgcolor" value="#ffffff">
+        <param name="menu" value="true">
+        <param name="allowFullScreen" value="true">
+        <param name="allowScriptAccess" value="always">
+        <param name="salign" value="">
+        <embed
+            src="http://d.scribd.com/ScribdViewer.swf?<%= query %>"
+            quality="high"
+            pluginspage="http://www.macromedia.com/go/getflashplayer"
+            play="true"
+            loop="true"
+            scale="showall"
+            wmode="opaque"
+            devicefont="false"
+            bgcolor="#ffffff"
+            menu="true"
+            allowfullscreen="true"
+            allowscriptaccess="always"
+            salign=""
+            type="application/x-shockwave-flash"
+            align="middle"
+            height="425"
+            width="100%"
+        ></embed>
+</object>

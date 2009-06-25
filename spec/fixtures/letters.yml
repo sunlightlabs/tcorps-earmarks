@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  amount: 
+  project_name: MyString
+  fiscal_year: 1
+  funding_purpose: 
+  taxpayer_justification: 
+
+two:
+  amount: 
+  project_name: MyString
+  fiscal_year: 1
+  funding_purpose: 
+  taxpayer_justification: 
