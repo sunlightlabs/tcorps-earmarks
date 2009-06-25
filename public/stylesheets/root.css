@@ -63,7 +63,11 @@ div.content {
 }
 
 div.content p {
-  margin: 1em 0;
+  margin: 0.75em 0;
+}
+
+div.content p.user_welcome {
+  background-color: #E0FFE0;
 }
 
 div.content div.main_message {

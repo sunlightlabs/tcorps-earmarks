@@ -19,10 +19,10 @@
     <% elsif flash[:notice] %>
       <div class="flash_notice"><%= flash[:notice] %></div>
     <% end %>
-    <h2>Help Us Gather Data</h2>
-    <p>Please fill out as much as you can:</p>
-    <%= render :partial => "letter_form", :locals => { :letter => @letter } %>
+    <h2>Help Us Gather Earmark Data</h2>
     <%= render :partial => "user_message" %>
+    <p>Please fill out the form below.  Use data from the source document on the left.</p>
+    <%= render :partial => "letter_form", :locals => { :letter => @letter } %>
   </div>
 </div>
 </div>
