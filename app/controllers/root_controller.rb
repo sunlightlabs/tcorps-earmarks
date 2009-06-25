@@ -1,11 +1,5 @@
 class RootController < ApplicationController
   
-  # Magnetic-Resonance-Imaging-System-Replacement
-  # 16661767
-
-  # Town of Grant Infrastructure
-  # 16662534
-
   def index
     @source_doc = SortingHat.get_source_doc
     @user = User.find_or_create_by_name(params["username"])
@@ -41,7 +35,10 @@ class RootController < ApplicationController
   end
   
   def report_completion
-    true
+    TcorpsUtil.signal_task_completion(@letter.task_key)
+    # TODO:
+    #   What to do if we get a failure?
+    #   Try again?
   end
   
   protected

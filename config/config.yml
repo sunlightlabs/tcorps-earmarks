@@ -1,0 +1,8 @@
+development:
+  tcorps_url: http://localhost:3000
+
+test:
+  tcorps_url: http://localhost:3000
+  
+production:
+  tcorps_url: http://transparencycorps.org
