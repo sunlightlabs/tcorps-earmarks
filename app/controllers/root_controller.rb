@@ -8,8 +8,10 @@ class RootController < ApplicationController
 
   def index
     @source_doc = SortingHat.get_source_doc
+    @user = User.find_or_create_by_name(params["username"])
     @letter = Letter.new(
       :source_doc_id => @source_doc.id,
+      :user_id       => @user.id,
       :task_key      => params["task_key"]
     )
     setup_form_vars
@@ -34,7 +36,6 @@ class RootController < ApplicationController
   protected
   
   def setup_form_vars
-    @user = User.find_or_create_by_name(params["username"])
     @username = params["username"]
     @points   = params["points"] || 0
   end
@@ -52,8 +53,9 @@ class RootController < ApplicationController
       :fiscal_year,
       :funding_purpose,
       :taxpayer_justification,
-      :task_key,
-      :source_doc_id
+      :user_id,
+      :source_doc_id,
+      :task_key
     ])
   end
   
