@@ -21,7 +21,11 @@
     <% end %>
     <h2>Help Us Gather Earmark Data</h2>
     <%= render :partial => "user_message" %>
-    <p>Please fill out the form below.  Use data from the source document on the left.</p>
+    <% if @prepopulated %>
+      <p>We have pre-populated the form below.  Please verify and correct it using the source document on the left.</p>
+    <% else %>
+      <p>Please fill out the form below.  Use data from the source document on the left.</p>
+    <% end %>
     <%= render :partial => "letter_form", :locals => { :letter => @letter } %>
   </div>
 </div>

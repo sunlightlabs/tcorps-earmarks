@@ -1,8 +1,11 @@
 development:
   tcorps_url: http://localhost:3000
+  form_prepopulation: true
 
 test:
   tcorps_url: http://localhost:3000
+  form_prepopulation: true
   
 production:
   tcorps_url: http://transparencycorps.org
+  form_prepopulation: true

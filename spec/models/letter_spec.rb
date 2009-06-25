@@ -45,6 +45,9 @@ describe Letter do
   end
 
   INVALID_AMOUNTS = [
+    "0",
+    "$0",
+    "$0.00",
     "requesting $2,500,000",
     "H-218",
     "-----",
