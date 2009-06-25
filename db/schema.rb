@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090619212012) do
+ActiveRecord::Schema.define(:version => 20090625213801) do
 
   create_table "entities", :force => true do |t|
     t.integer  "letter_id"
@@ -53,11 +53,13 @@ ActiveRecord::Schema.define(:version => 20090619212012) do
     t.string   "access_key"
     t.text     "plain_text"
     t.integer  "legislator_id"
-    t.integer  "letters_count", :default => 0
+    t.integer  "letters_count",     :default => 0
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "conversion_failed", :default => false
   end
 
+  add_index "source_docs", ["conversion_failed"], :name => "index_source_docs_on_conversion_failed"
   add_index "source_docs", ["legislator_id"], :name => "index_source_docs_on_legislator_id"
   add_index "source_docs", ["letters_count"], :name => "index_source_docs_on_letters_count"
   add_index "source_docs", ["scribd_doc_id"], :name => "index_source_docs_on_scribd_doc_id"
