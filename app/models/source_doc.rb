@@ -4,6 +4,11 @@ class SourceDoc < ActiveRecord::Base
   has_many :letters
   belongs_to :legislator
   
+  def plain_text=(raw)
+    self.plain_text_length = (raw || "").length
+    super(raw)
+  end
+  
   def self.get_random
     min = self.minimum(:letters_count)
     letters = self.find(:all, :conditions =>

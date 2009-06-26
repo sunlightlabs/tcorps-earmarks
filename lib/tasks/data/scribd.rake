@@ -84,7 +84,8 @@ namespace :data do
           status = scribd_doc.conversion_status
           if status == "DONE"
             plain_text_url = scribd_doc.download_url('txt')
-            source_doc.plain_text = open(plain_text_url).read
+            plain_text = open(plain_text_url).read
+            source_doc.plain_text = plain_text
             source_doc.save!
             count += 1
             puts "  Saved plain text for SourceDoc id #{source_doc.id}."
