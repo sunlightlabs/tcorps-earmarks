@@ -1,12 +1,12 @@
 <%
   plain = {
-    :nav => %{<li><a href="#plain_text"><span>Plain Text</span></a></li>},
-    :content => "plain_text_div"
+    :nav     => %{<a href="#plain_text"><span>Plain Text</span></a>},
+    :partial => "plain_text"
   }
 
   source = {
-    :nav => %{<li><a href="#source_doc"><span>Source Doc</span></a></li>},
-    :content => "source_doc_div"
+    :nav     => %{<a href="#source_doc"><span>Source Doc</span></a>},
+    :partial => "source_doc"
   }
   
   tabs = @has_plain_text ? [plain, source] : [source, plain]
@@ -15,10 +15,10 @@
 <div id="tabs">
   <ul>
     <% tabs.each do |tab| %>
-      <%= tab[:nav] %>
+      <li><%= tab[:nav] %></li>
     <% end %>
   </ul>
   <% tabs.each do |tab| %>
-    <%= render :partial => tab[:content] %>
+    <%= render :partial => tab[:partial] %>
   <% end %>
 </div>
