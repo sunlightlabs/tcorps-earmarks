@@ -1,7 +1,16 @@
 # Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
 
-  # Removes the .00 part if present.
+  def tcorps_url
+    APP_CONFIG['tcorps_url']
+  end
+  
+  def another_task_img_tag
+    src = URI.join(APP_CONFIG['tcorps_url'], '/images/btn_anotherTask.png').to_s
+    image_tag(src, :alt => %{This is what the "I'd Like Another Task" button looks like.})
+  end
+  
+  # Removes zero cents (the .00 part) if present.
   # Otherwise, returns entire part.
   def as_currency(item)
     naive = number_to_currency(item)
