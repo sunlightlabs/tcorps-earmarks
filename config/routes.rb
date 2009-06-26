@@ -11,11 +11,6 @@ ActionController::Routing::Routes.draw do |map|
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   map.resources :products
-  map.resources :entities
-  map.resources :legislators
-  map.resources :letters
-  map.resources :source_docs
-  map.resources :users
 
   # Sample resource route with options:
   #   map.resources :products, :member => { :short => :get, :toggle => :post }, :collection => { :sold => :get }
