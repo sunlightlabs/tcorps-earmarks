@@ -2,7 +2,6 @@ class RootController < ApplicationController
 
   def index
     @source_doc = SourceDoc.get_random
-    @has_plain_text = @source_doc.plain_text_length > 10
     @user = User.find_or_create_by_name(params["username"])
     @letter = Letter.new(
       :source_doc_id => @source_doc.id,
@@ -64,9 +63,11 @@ class RootController < ApplicationController
     render :action => :index
   end
   
+  # Helper: sets up instance variables for index.html.erb.
   def setup_index_vars
     @username = params["username"]
     @points   = params["points"] || 0
+    @has_plain_text = @source_doc.plain_text_length > 10
   end
   
   def report_completion
