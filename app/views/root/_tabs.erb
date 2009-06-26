@@ -18,7 +18,7 @@
       <%= tab[:nav] %>
     <% end %>
   </ul>
+  <% tabs.each do |tab| %>
+    <%= render :partial => tab[:content] %>
+  <% end %>
 </div>
-<% tabs.each do |tab| %>
-  <%= render :partial => tab[:content] %>
-<% end %>
