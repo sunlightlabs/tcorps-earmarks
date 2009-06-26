@@ -2,6 +2,7 @@ class RootController < ApplicationController
 
   def index
     @source_doc = SourceDoc.get_random
+    @has_plain_text = @source_doc.plain_text_length > 10
     @user = User.find_or_create_by_name(params["username"])
     @letter = Letter.new(
       :source_doc_id => @source_doc.id,
