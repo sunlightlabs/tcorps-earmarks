@@ -5,6 +5,10 @@ development:
 test:
   tcorps_url: http://localhost:3000
   form_prepopulation: true
+
+staging:
+  tcorps_url: http://tcorps.sunlightlabs.com
+  form_prepopulation: true
   
 production:
   tcorps_url: http://transparencycorps.org
