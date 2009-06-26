@@ -24,6 +24,7 @@ class DataBackupHelper
     plain_text
     created_at
     updated_at
+    conversion_failed
   )
   
   def self.construct_filename(filename)

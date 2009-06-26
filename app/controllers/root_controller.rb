@@ -1,7 +1,7 @@
 class RootController < ApplicationController
 
   def index
-    @source_doc = SortingHat.get_source_doc
+    @source_doc = SourceDoc.get_random
     @user = User.find_or_create_by_name(params["username"])
     @letter = Letter.new(
       :source_doc_id => @source_doc.id,

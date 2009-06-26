@@ -15,6 +15,7 @@
   id: 1
   access_key: key-1yitzb56xeleniojswlu
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Administration Building Renovation, Snead State, AL
@@ -31,6 +32,7 @@
   id: 2
   access_key: key-1y3nbtamko55l4s3izdh
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: ADPS Air Card Project
@@ -47,6 +49,7 @@
   id: 3
   access_key: key-2c5whwecpc4v60jozm0w
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: ADPS AL Criminal Justice Training Center Improvement Project
@@ -63,6 +66,7 @@
   id: 4
   access_key: key-2c5whwecpc4v60jozm0w
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: ADPS Child Sexual Predator Program
@@ -79,6 +83,7 @@
   id: 5
   access_key: key-rstvnejs65suwx5bhhm
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: ADPS Computer-Aided Dispatch Project
@@ -95,6 +100,7 @@
   id: 6
   access_key: key-isq438d1w05zmedffdm
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: ADPS Digital In-Car Video Expansion Project
@@ -111,6 +117,7 @@
   id: 7
   access_key: key-1ic8f35nktrmanuiy4wm
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: ADPS Mobile Data Computer Expansion Project
@@ -127,6 +134,7 @@
   id: 8
   access_key: key-zbwmm92453duzsmjmn2
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Adult Degree Completion Program, Huntingdon College
@@ -143,6 +151,7 @@
   id: 9
   access_key: key-ggav2oaczonzw26fjc2
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Advanced Asphalt Paving Technologies for Safe and Sustainable Pavements
@@ -159,6 +168,7 @@
   id: 10
   access_key: key-1jbs7s1akg51de8c9kdy
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Advanced Manufacturing Center
@@ -175,6 +185,7 @@
   id: 11
   access_key: key-1f7om0ihah8gq11i55pj
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Aerospace Research and Education Initiative (AREI)
@@ -191,6 +202,7 @@
   id: 12
   access_key: key-hhp0sovmfnbeing4ci4
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Agriculture Facility, Gordo, AL
@@ -207,6 +219,7 @@
   id: 13
   access_key: key-rstvnejs65suwx5bhhm
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Alabama Commercial Driver's License Testing Site Improvements, Montgomery, AL
@@ -223,6 +236,7 @@
   id: 14
   access_key: key-ggav2oaczonzw26fjc2
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Alabama Computer Forensics Labs
@@ -239,6 +253,7 @@
   id: 15
   access_key: key-fl1cd8gwyghh4ycq5f3
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Alabama Farmers Market Leadership Initiative
@@ -255,6 +270,7 @@
   id: 16
   access_key: key-2fhvt52ozpzuopqk7koj
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Alabama Farmers Market Renovation and Revitalization
@@ -271,6 +287,7 @@
   id: 17
   access_key: key-3jre8skq5ph9mialqfi
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Alabama PALS
@@ -287,6 +304,7 @@
   id: 18
   access_key: key-5wvfek81zw0ipu17jgi
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Alabama Safe Schools Initiative
@@ -303,6 +321,7 @@
   id: 19
   access_key: key-1cq6q30zrclmi7b7zr9f
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Alabama Small Business Institute of Commerce Education and Workforce Development Training
@@ -319,6 +338,7 @@
   id: 20
   access_key: key-4zavri4d5daylw8hffc
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Albertville Senior Citizens Center Building Project
@@ -335,6 +355,7 @@
   id: 21
   access_key: key-24yibguasc2aa7c6sosh
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Anti-icing Project on I-65 Bridge over Tennessee River, Morgan and Limestone County, AL
@@ -351,6 +372,7 @@
   id: 22
   access_key: key-sbwlp171w9qaiznbm92
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Arab Industrial Park East
@@ -367,6 +389,7 @@
   id: 23
   access_key: key-fyybsqsvm09wnksvb4g
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Army Aviation Weapon Technology
@@ -383,6 +406,7 @@
   id: 24
   access_key: key-ryucprsznn23fkp68h8
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Army Responsive Tactical Space System Exerciser (ARTSSE)
@@ -399,6 +423,7 @@
   id: 25
   access_key: key-eaoe0upmojg13c9728m
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Autonomous Cargo Acquisition for Rotorcraft Unmanned Aerial Vehicles
@@ -415,6 +440,7 @@
   id: 26
   access_key: key-80e51w54yvrqjooktez
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Bankhead Center for Research and Education, Courtland, AL
@@ -431,6 +457,7 @@
   id: 27
   access_key: key-13s4knlrln2e3fu5fkoj
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Bankhead House - Heritage and Cultural Arts Center
@@ -447,6 +474,7 @@
   id: 28
   access_key: key-28h919iwtokeu0v2gxps
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Bethel Road Sewer Expansion, Priceville, AL
@@ -463,6 +491,7 @@
   id: 29
   access_key: key-jtvlzkthl0uuaf0bw8d
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Bevill State Community College, Fayette, AL, Industrial Maintenance and Welding Infrastructure Project
@@ -479,6 +508,7 @@
   id: 30
   access_key: key-2358fsuzj1ktq4m0kxqx
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Black Creek Industrial Park
@@ -495,6 +525,7 @@
   id: 31
   access_key: key-slhzhvpzc7758mwya8y
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Black Creek Trail System, Gadsden
@@ -511,6 +542,7 @@
   id: 32
   access_key: key-1hit6u7qgh5plkv9qzag
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Black Warrior and Tombigbee Rivers, AL
@@ -527,16 +559,18 @@
   id: 33
   access_key: key-1p42gtch6rr03brb6487
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: "Blount, Dekalb, Etowah, Marshall, Marion, Morgan, Pickens, Walker, Winston Counties, AL Drug Task Forces Anti-Methamphetamine Project "
-  updated_at: 2009-06-22 23:59:33 Z
-  plain_text: "-"
+  updated_at: 2009-06-25 21:44:23 Z
+  plain_text: ""
   scribd_doc_id: 16660880
   source_url: http://aderholt.house.gov/uploads/Blount,%20Dekalb,%20Etowah,%20Marshall,%20Marion,%20Morgan,%20Pickens,%20Walker,%20Winston%20Counties,%20AL%20Drug%20Task%20Forces%20Anti-Methamphetamine%20Project%20.pdf
   id: 34
   access_key: key-2jotqln1jhkc0pajqd6p
   legislator_id: 1
+  conversion_failed: true
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Blountsville Industrial Park
@@ -553,6 +587,7 @@
   id: 35
   access_key: key-1hz2nkxw08xvxge9wna4
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Boaz Recreation Center
@@ -569,6 +604,7 @@
   id: 36
   access_key: key-2j49h8z1kzxdl6gh127r
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Bridge Replacement on Martling Road
@@ -585,6 +621,7 @@
   id: 37
   access_key: key-1m86g56s896zeo1erfvk
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Bridging the Technology Gap
@@ -601,6 +638,7 @@
   id: 38
   access_key: key-4tu3f5whi69nnhqv4zr
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Building Good Citizens through Civic Education and Outreach
@@ -617,6 +655,7 @@
   id: 39
   access_key: key-2dtlunvb33fyc6zr6prw
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Burrows Museum Exhibitions, Hanceville, AL
@@ -633,6 +672,7 @@
   id: 40
   access_key: key-iufkksk8u3szeth0n6g
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Campus Accessibility
@@ -649,6 +689,7 @@
   id: 41
   access_key: key-12qm8jzoznnlnv0fzfba
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Canine Detection Development and Training for Local Law Enforcement
@@ -665,6 +706,7 @@
   id: 42
   access_key: key-1n7sjw7us62z31c4yyj0
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Center for Drug Discovery and Translational Medicine
@@ -681,6 +723,7 @@
   id: 43
   access_key: key-2j2k6byyizs5tony5m3w
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Central-Carver Museum
@@ -697,6 +740,7 @@
   id: 44
   access_key: key-27cpv4obpld6bbyh9tbe
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Characterization Techniques for Advanced High Temperature Materials in Space Launch Applications
@@ -713,6 +757,7 @@
   id: 45
   access_key: key-gpmcl9thzaekfib0nf2
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: City of Guin Armory Building Renovation
@@ -729,6 +774,7 @@
   id: 46
   access_key: key-2l3og818ixu1pz8rsg9c
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: City of Hamilton Senior Center
@@ -745,6 +791,7 @@
   id: 47
   access_key: key-gpmcl9thzaekfib0nf2
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: City of Henagar Public Library
@@ -761,6 +808,7 @@
   id: 48
   access_key: key-2sckhka328pqsae7iox
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: City of Red Bay Wastewater Infrastructure
@@ -777,6 +825,7 @@
   id: 49
   access_key: key-evezodg95tvyrto9f17
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: City of Sulligent - Valley Road and Fine Circle Sewer Project
@@ -793,6 +842,7 @@
   id: 50
   access_key: key-rxnxf6vnofd4kgha38j
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: City of Sulligent - Water Well and Storage Tank Project
@@ -809,6 +859,7 @@
   id: 51
   access_key: key-109boqg91ip9kah0z3aa
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: City of Winfield Industrial Park Grade and Drain
@@ -825,6 +876,7 @@
   id: 52
   access_key: key-ijo7na3x60c5xkx4gpj
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Clinic Services Expansion
@@ -841,6 +893,7 @@
   id: 53
   access_key: key-195rre33bslaj5o7hc1u
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Closure of Tuscaloosa Avenue and Expansion of Cotton Avenue to Enhance EMS Response and Hospital Safety, Birmingham, AL
@@ -857,6 +910,7 @@
   id: 54
   access_key: key-2zffnjbfwuv7okyfian
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Collection Management Tool Development
@@ -873,6 +927,7 @@
   id: 55
   access_key: key-in62vfw9zg7zzffaucf
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: College Safety and Security System
@@ -889,6 +944,7 @@
   id: 56
   access_key: key-1cncwazdg4ohruwsm52q
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Community-Based Services Expansion
@@ -905,6 +961,7 @@
   id: 57
   access_key: key-1mhkiovg7580hbp4rwcr
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Correct Septic Tank Failures
@@ -921,6 +978,7 @@
   id: 58
   access_key: key-27rfrp5pjm5ys2gw7oyy
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Corridor X Industrial Park Development Project
@@ -937,6 +995,7 @@
   id: 59
   access_key: key-28po0dfz15e7ijqlnpmd
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Corridor X Lighting Project, Jasper
@@ -953,6 +1012,7 @@
   id: 60
   access_key: key-2ofbshnjpn3hni5tmbyl
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: County Road 400 Water Transmission Main, Decatur, AL
@@ -969,6 +1029,7 @@
   id: 61
   access_key: key-2jn5qu5cfrk16ciefsad
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Cullman County Rural Transit Garage
@@ -985,6 +1046,7 @@
   id: 62
   access_key: key-1o7x2dx854nwm7sdb1t4
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Decatur Downtown Streetscape
@@ -1001,6 +1063,7 @@
   id: 63
   access_key: key-20rrw2scbduwvw698h26
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: D-Net Troop Protection System April 3
@@ -1017,6 +1080,7 @@
   id: 64
   access_key: key-2b4qjzlxr88hbbxlfdg4
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Domestic Violence Law Clinic
@@ -1033,6 +1097,7 @@
   id: 65
   access_key: key-2gzscj1dawdw4in9yktg
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Downtown Economic and Redevelopment Program - Historic 1883 Cemetery, Arab, AL
@@ -1049,6 +1114,7 @@
   id: 66
   access_key: key-lcc0ng7pnuz16jhfqcs
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Downtown Flood Zone Mitigation
@@ -1065,6 +1131,7 @@
   id: 67
   access_key: key-2kclyaqoqmt168t9btyo
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Downtown Restoration Project, Valley Head
@@ -1081,6 +1148,7 @@
   id: 68
   access_key: key-s6c7184bmyhxrus8na4
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Downtown Streetscape Phase 2, Russellville
@@ -1097,6 +1165,7 @@
   id: 69
   access_key: key-vm5o0pwaqk7plrg4v7
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Drainage Project, Vinemont, AL
@@ -1113,6 +1182,7 @@
   id: 70
   access_key: key-29izbdpu9qv450d855zm
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Duck River Dam, AL
@@ -1129,6 +1199,7 @@
   id: 71
   access_key: key-1aflmlr742a1hz50kblw
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: e-Campus Initiative, Livingston, AL
@@ -1145,6 +1216,7 @@
   id: 72
   access_key: key-2zffnjbfwuv7okyfian
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Economic Development Partnership
@@ -1161,6 +1233,7 @@
   id: 73
   access_key: key-2l7oft98la2c3rpwkay2
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Educational programs and equipment for the Alabama 4-H Center
@@ -1177,6 +1250,7 @@
   id: 74
   access_key: key-1mr6l1cugw4ofm4nudi1
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Electrical Signature Analysis
@@ -1193,6 +1267,7 @@
   id: 75
   access_key: key-2fhoj9yv5pss4eksa8wb
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Electronic Training and Security Tools (ETAST) Phase III
@@ -1209,6 +1284,7 @@
   id: 76
   access_key: key-2n32bsgmwmanuhjrpb3t
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Emergency Department Expansion
@@ -1225,6 +1301,7 @@
   id: 77
   access_key: key-n1vrr3squmr6wncd5f1
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Emergency Warning Sirens
@@ -1241,6 +1318,7 @@
   id: 78
   access_key: key-2fx310vklj709ob7n5jx
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Energy Efficiency Enhancements
@@ -1257,6 +1335,7 @@
   id: 79
   access_key: key-2ns6002m9gdtd7z0n9mp
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Engine Diagnostics Enhancement Capability
@@ -1273,6 +1352,7 @@
   id: 80
   access_key: key-ovpvlyifqsggjhhxaxe
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Enhanced Rapid Tactical Integration for Fielding of Systems (ERTIFS)
@@ -1289,6 +1369,7 @@
   id: 81
   access_key: key-1mhkiovg7580hbp4rwcr
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Enhancements in Training for High Growth Industry, Jasper, AL
@@ -1305,6 +1386,7 @@
   id: 82
   access_key: key-1bps9srck6dmifnem4ej
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Enterprise-Level Storage Array
@@ -1321,16 +1403,18 @@
   id: 83
   access_key: key-x5fxp70h3hg3m4p94d9
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Equipment & Infrastructure Improvements to Central Union Mission Facility
-  updated_at: 2009-06-23 00:02:52 Z
-  plain_text: "-"
+  updated_at: 2009-06-25 21:44:24 Z
+  plain_text: ""
   scribd_doc_id: 16661480
   source_url: http://aderholt.house.gov/uploads/Equipment%20&%20Infrastructure%20Improvements%20to%20Central%20Union%20Mission%20Facility.pdf
   id: 84
   access_key: key-2oxjgoxu9vcqqrvk73ih
   legislator_id: 1
+  conversion_failed: true
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Falkville Sewer System Improvements
@@ -1347,6 +1431,7 @@
   id: 85
   access_key: key-2ed7vwicwgqmygebgre3
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Farm Deployable Microbial Bioreactor for Fuel Ethanol Production
@@ -1363,6 +1448,7 @@
   id: 86
   access_key: key-2ejr6d9qgbkwqabeyl72
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Fayette County Ag Center Expansion
@@ -1379,6 +1465,7 @@
   id: 87
   access_key: key-22gnf035cubt0xlakqt6
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Fayette County Reservoir
@@ -1395,6 +1482,7 @@
   id: 88
   access_key: key-pi96wcstzb60hgesfo0
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Fayette Sewer System Improvement Project
@@ -1411,6 +1499,7 @@
   id: 89
   access_key: key-cnmoqry9gv85om89pwx
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Financial Cybercrimes Project - Operation Swordfish
@@ -1427,6 +1516,7 @@
   id: 90
   access_key: key-20h0y6jy3l151h0chepf
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: First Teachers at Home, Sumiton, AL
@@ -1443,6 +1533,7 @@
   id: 91
   access_key: key-d35ybb70wyplhpmudu5
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Fort Payne Coal and Iron Building
@@ -1459,6 +1550,7 @@
   id: 92
   access_key: key-1nqm9zhjs26stvr8u5bw
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Fourteen Mile Railroad Bridge
@@ -1475,6 +1567,7 @@
   id: 93
   access_key: key-jzo9331spqfsvd2fzmj
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Franklin County Mike Green Industrial Park
@@ -1491,6 +1584,7 @@
   id: 94
   access_key: key-3ge39tn80wmnom17mwg
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Frazier Park Restoration, Decatur, AL
@@ -1507,6 +1601,7 @@
   id: 95
   access_key: key-ygvupit75m2hwmd2jjp
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: FY2010 Beltline Road Sewer Project
@@ -1523,6 +1618,7 @@
   id: 96
   access_key: key-1cn8mntid2hrvt7h0d23
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Gadsden Career-Tech Jobs Program
@@ -1539,6 +1635,7 @@
   id: 97
   access_key: key-1vwdaml7x13d3iaf154e
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Gadsden State Community College Green Operations Plan
@@ -1555,6 +1652,7 @@
   id: 98
   access_key: key-15jaturjrqxl83dn2380
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Garden City Sewer Project
@@ -1571,6 +1669,7 @@
   id: 99
   access_key: key-1qn8cp89vbxmpq340unx
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Garden City Water Project
@@ -1587,6 +1686,7 @@
   id: 100
   access_key: key-et17mfvxojmkc78f7g3
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: George Washington and Presidential Collections at American Village, Montevallo, AL
@@ -1603,6 +1703,7 @@
   id: 101
   access_key: key-2l0iacwgroewklcc4hi0
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Geriatric Psychiatric Partial-Hospitalization
@@ -1619,6 +1720,7 @@
   id: 102
   access_key: key-2ih57ritlamm881nrux5
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: GNC for Synergistic Manned-Unmanned Aerial System Teaming
@@ -1635,6 +1737,7 @@
   id: 103
   access_key: key-ldduvpao7ofp7v5cxvb
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Grant Police Department Technology Upgrades
@@ -1651,6 +1754,7 @@
   id: 104
   access_key: key-2v114b4odeaaasiby7y
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Grant Town Park - Renovations
@@ -1667,6 +1771,7 @@
   id: 105
   access_key: key-xezc8mudbzsqiq1romm
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Guntersville Harbor Breakwater Replacement
@@ -1683,6 +1788,7 @@
   id: 106
   access_key: key-q7kc0y7ovnuqoehw473
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Guntersville Municipal Airport Sanitary Sewer System and Pump Station Design, Construction, Mitigation
@@ -1699,6 +1805,7 @@
   id: 107
   access_key: key-1uqqo7cif8yuho0ifs3x
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Hackleburg Town Square 2009
@@ -1715,6 +1822,7 @@
   id: 108
   access_key: key-1krw2q41r26t8ii2kpqm
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: HANDS Home Shelter for Girls Transportation Request, Decatur, AL
@@ -1731,6 +1839,7 @@
   id: 109
   access_key: key-4xwt9awdktjhlq1u1z
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Health Professions Equipment Upgrades and Training
@@ -1747,6 +1856,7 @@
   id: 110
   access_key: key-1at8rt534vytwedkwlfq
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Healthcare Education Clinical Simulation, Jasper, AL
@@ -1763,6 +1873,7 @@
   id: 111
   access_key: key-25eqrg2s797dp9ilcu7i
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Helping Families Program
@@ -1779,6 +1890,7 @@
   id: 112
   access_key: key-2luwe1jv6yih377svr6h
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Highway 118 Corridor X Interchange Economic Development Project, Jasper, AL
@@ -1795,6 +1907,7 @@
   id: 113
   access_key: key-25n7jkdhnzpwyjb9wqc3
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Highway 31 Widening Project, South Vinemont, AL
@@ -1811,6 +1924,7 @@
   id: 114
   access_key: key-28zfy2ziv4hnp7n99okf
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Highway 36 Extension and Widening Phase II, Haleyville, AL
@@ -1827,6 +1941,7 @@
   id: 115
   access_key: key-2or2w39p2hxox6bxo99a
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Historical Renovation of 1940 Federal Style Post Office for City Administration Offices, Guntersville, AL
@@ -1843,6 +1958,7 @@
   id: 116
   access_key: key-28f30xy7lhxd4c8281i5
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Hodges Trail Head and Campground
@@ -1859,6 +1975,7 @@
   id: 117
   access_key: key-2ntx1ohavhum8nsubm1q
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Hotline Services for Victims of Sexual Violence and Rape Prevention Programs
@@ -1875,16 +1992,18 @@
   id: 118
   access_key: key-1yugwiehayf8uimt5i8
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Ignite! Science Literacy
-  updated_at: 2009-06-23 00:05:19 Z
-  plain_text: "-"
+  updated_at: 2009-06-25 21:44:26 Z
+  plain_text: ""
   scribd_doc_id: 16661653
   source_url: http://aderholt.house.gov/uploads/Ignite!%20Science%20Literacy.pdf
   id: 119
   access_key: key-1gcrpvyaxjuicprw1qbw
   legislator_id: 1
+  conversion_failed: true
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Improved crop production practices
@@ -1901,6 +2020,7 @@
   id: 120
   access_key: key-kuejxcn0qkv1n97jqpx
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Improvements to County Road 222, Goodhope, AL
@@ -1917,6 +2037,7 @@
   id: 121
   access_key: key-1fy1grrv6fuf9w3can6d
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Improving Technology Access for all Students
@@ -1933,6 +2054,7 @@
   id: 122
   access_key: key-11dak68zp5c5u5cl5bws
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: In Ovo Vaccination by Recombinant Adenovirus Vectors
@@ -1949,6 +2071,7 @@
   id: 123
   access_key: key-1nrfmtmm9ht3rk1s7y6t
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Industrial Maintenance and Welding Infrastructure Project
@@ -1965,6 +2088,7 @@
   id: 124
   access_key: key-24cit7luniyz5c295mhh
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Industrial Park Access Road
@@ -1981,6 +2105,7 @@
   id: 125
   access_key: key-2l1wrqjtghi8gloumh6
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Industrial Systems Technology and Machining Training
@@ -1997,6 +2122,7 @@
   id: 126
   access_key: key-z2lgngyt3qev3fdpua1
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Industry Access Improvements - Arad Thompson Road NE, Arab
@@ -2013,6 +2139,7 @@
   id: 127
   access_key: key-16is7x1uomsv2ipnbjh8
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Infrastructure Improvements to Fayette - Fayette County Industrial Park Project
@@ -2029,6 +2156,7 @@
   id: 128
   access_key: key-1yugwiehayf8uimt5i8
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Ingall's Harbor and Hospitality Park
@@ -2045,6 +2173,7 @@
   id: 129
   access_key: key-ywoi5q9rd76d1n04orn
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Instructional Technology Improvements, Jasper, AL
@@ -2061,6 +2190,7 @@
   id: 130
   access_key: key-3p41cnvdcmu065v4nuw
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Integrated Law Enforcement Records Management System Phase III
@@ -2077,6 +2207,7 @@
   id: 131
   access_key: key-10174c7c8vsa8yy3aiid
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: International Lunar Network (ILN)
@@ -2093,16 +2224,18 @@
   id: 132
   access_key: key-9pe0ot2meeb4w75f3lv
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Interoperable Communications & Centralized Dispatch System
-  updated_at: 2009-06-23 00:06:10 Z
-  plain_text: "-"
+  updated_at: 2009-06-25 21:44:27 Z
+  plain_text: ""
   scribd_doc_id: 16661713
   source_url: http://aderholt.house.gov/uploads/Interoperable%20Communications%20&%20Centralized%20Dispatch%20System.pdf
   id: 133
   access_key: key-1c5c48sxgywd25w1bguq
   legislator_id: 1
+  conversion_failed: true
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: ITEAMS SIGINT Initiative
@@ -2119,6 +2252,7 @@
   id: 134
   access_key: key-sfrykf5zr91rfihuluk
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Jacksonville State University Canyon Center, Jacksonville, AL
@@ -2135,6 +2269,7 @@
   id: 135
   access_key: key-1th1ad8rg5mci3g5xm0y
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Jefferson County Jails Technology annd Equipment Upgrades
@@ -2151,6 +2286,7 @@
   id: 136
   access_key: key-1a5lcwpumphf9i37qv7w
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Jefferson County Sheriff's Office Academy Training Equipment Upgrades
@@ -2167,6 +2303,7 @@
   id: 137
   access_key: key-kgxpeenbr088ahrly4
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Jimmie Hale Mission Royal Pines Recovery Center Expansion and Renovations
@@ -2183,6 +2320,7 @@
   id: 138
   access_key: key-fz41hgh3zdsmbw91pcq
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Kennedy Water System Improvements
@@ -2199,6 +2337,7 @@
   id: 139
   access_key: key-11eh576w2pwyi3wiwjiq
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Knights Pump Station Upgrade and CR 437 Main Extension, Cullman, AL
@@ -2215,6 +2354,7 @@
   id: 140
   access_key: key-1m8ec61oqgkx8hw777zv
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Lamar County Waterline Extension Project
@@ -2231,6 +2371,7 @@
   id: 141
   access_key: key-2maz4h1qwz9dba8punpa
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Law Enforcement and Forensic Science Technology and Equipment
@@ -2247,6 +2388,7 @@
   id: 142
   access_key: key-2fnxojhhv9l8tm5bspay
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Law Enforcement In-Car Cameras
@@ -2263,6 +2405,7 @@
   id: 143
   access_key: key-2n7zlvhdn9mbi15r3abk
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Locust Fork Wastewater Collection and Treatment System, Blount County Commission, AL
@@ -2279,6 +2422,7 @@
   id: 144
   access_key: key-6740i5yua5vn7d4xm0m
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Magnetic Resonance Imaging System Replacement
@@ -2295,6 +2439,7 @@
   id: 145
   access_key: key-5okl5ytc0tt47wtmx24
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Manganese Reduction Project for Lade Catoma, Cullman, AL
@@ -2311,6 +2456,7 @@
   id: 146
   access_key: key-rw2ixyhrc2fesh7elrk
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Marine Corps MK1077 Flatracks april 4
@@ -2327,6 +2473,7 @@
   id: 147
   access_key: key-25amc491fj7x452ozyfd
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Marion County Highway Bridge Improvements
@@ -2343,6 +2490,7 @@
   id: 148
   access_key: key-21uajpbawivh3e2qikrv
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Marshall County Home Place Apartment Refurbishment
@@ -2359,6 +2507,7 @@
   id: 149
   access_key: key-1nf55fu5znzqklzjopkd
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Martin Road 5 Lane Widening, Huntsville, AL
@@ -2375,6 +2524,7 @@
   id: 150
   access_key: key-1mts1w7wbh8el9ib8ru6
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: McCoy Subdivision Sewer Extension Project, Gordo, AL
@@ -2391,6 +2541,7 @@
   id: 151
   access_key: key-1nedlqmo9b2dfjdhk3xy
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Miniature Antennas for Unmanned Aerial Vehicles
@@ -2407,16 +2558,18 @@
   id: 152
   access_key: key-1vctjzrd4wdzx4a138fm
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Mission Systems Recording, Archival & Retrieval (RAR)
-  updated_at: 2009-06-23 00:07:38 Z
-  plain_text: "-"
+  updated_at: 2009-06-25 21:44:29 Z
+  plain_text: ""
   scribd_doc_id: 16661806
   source_url: http://aderholt.house.gov/uploads/Mission%20Systems%20Recording,%20Archival%20&%20Retrieval%20(RAR).pdf
   id: 153
   access_key: key-2jskfsndy9pgr8fh17xz
   legislator_id: 1
+  conversion_failed: true
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Mobile Data Terminal Update
@@ -2433,6 +2586,7 @@
   id: 154
   access_key: key-xbgpndmw4flovr5f4ez
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Mobile Harbor Turning Basin, AL
@@ -2449,6 +2603,7 @@
   id: 155
   access_key: key-2lm501njndrm9uo2vzk7
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Model State Partnership for Cybercrime and Security
@@ -2465,6 +2620,7 @@
   id: 156
   access_key: key-cb4is9n8cnbj1kq1q5p
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Montevallo Ebenezer Swamp Interpretive Center Stage III
@@ -2481,6 +2637,7 @@
   id: 157
   access_key: key-3db101o3nthtogymfjl
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Montevallo Energy Savings Infrastructure Upgrade
@@ -2497,6 +2654,7 @@
   id: 158
   access_key: key-1k4h4ysp33f8sh2yufyw
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Montevallo Main Hall Renovation
@@ -2513,6 +2671,7 @@
   id: 159
   access_key: key-hon7u8vuzpyodvtvfok
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Montevallo Observatory Project Phase II
@@ -2529,6 +2688,7 @@
   id: 160
   access_key: key-15ph80v1sobixxhzaedv
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Municipal Road and Industrial Access South Vinemont
@@ -2545,6 +2705,7 @@
   id: 161
   access_key: key-2g12haov8icd9r25sdz9
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: 2020 Initiative
@@ -2561,6 +2722,7 @@
   id: 162
   access_key: key-22zn2gdaycrhe7pr4buv
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Nanotoxicology - Exposure, Delivery and Safety of Nanoparticles
@@ -2577,16 +2739,18 @@
   id: 163
   access_key: key-nyfuhxamyh6ijppfwd1
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: NASA - Alabama Science & Math New Media Education Pilot Project
-  updated_at: 2009-06-23 00:08:19 Z
-  plain_text: "-"
+  updated_at: 2009-06-25 21:44:30 Z
+  plain_text: ""
   scribd_doc_id: 16661980
   source_url: http://aderholt.house.gov/uploads/NASA%20-%20Alabama%20Science%20&%20Math%20New%20Media%20Education%20Pilot%20Project.pdf
   id: 164
   access_key: key-2ag58i0d2gc7yhcihaps
   legislator_id: 1
+  conversion_failed: true
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: National Advocacy Center State and Local Prosecutors Training Program
@@ -2603,6 +2767,7 @@
   id: 165
   access_key: key-wktuuovlodztsjpu7bm
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: National soil dynamics laboratory
@@ -2619,6 +2784,7 @@
   id: 166
   access_key: key-1e9nxrsh3uwanswmwppz
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: National Technical Assistance and Training Program
@@ -2635,6 +2801,7 @@
   id: 167
   access_key: key-cirup8yxjrxpaupifhi
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: NE Etowah Community Center Pavilion Project
@@ -2651,6 +2818,7 @@
   id: 168
   access_key: key-1unsa21m8i3dnxetvdpl
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Newburg Masonic Lodge
@@ -2667,6 +2835,7 @@
   id: 169
   access_key: key-og0l312i8sod2vywu6w
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Newburg Road and Winston County 11 Resurfacing, Winston County, AL
@@ -2683,6 +2852,7 @@
   id: 170
   access_key: key-ahpj18j9xvbfipjepcz
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Non-invasive Vectored Vaccine Program
@@ -2699,6 +2869,7 @@
   id: 171
   access_key: key-2gtng2kwu6txq4kx627x
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: North Alabama Small Business Incubator
@@ -2715,6 +2886,7 @@
   id: 172
   access_key: key-17fc9dctqwlpjmc4c264
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: North Industrial Park Paving and Drainage
@@ -2731,6 +2903,7 @@
   id: 173
   access_key: key-vgr59kjpf3y2p7gwhi4
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Northeast Alabama Agri-Business Center at Rainsville
@@ -2747,6 +2920,7 @@
   id: 174
   access_key: key-22eg5kuosrb0ba7b1rul
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Northeast Alabama Regional Airport Improvements, Gadsden, AL
@@ -2763,6 +2937,7 @@
   id: 175
   access_key: key-4avb5j57r3u0sdulyn5
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Norton Building Renovation, Boaz, AL
@@ -2779,6 +2954,7 @@
   id: 176
   access_key: key-x5p5n0vd760vd3rjyd6
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Oakman Sewage System Improvements
@@ -2795,6 +2971,7 @@
   id: 177
   access_key: key-2cnmlnccgr4jawiz4gwe
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:40 Z
   source_file: 
   title: Open Architecture Simulation System (OASiS)
@@ -2811,6 +2988,7 @@
   id: 178
   access_key: key-2l5x21f29oo0ebru7568
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Overcoming Communication Barriers for Disabled Youth in 4th District AL
@@ -2829,6 +3007,7 @@
   id: 179
   access_key: key-1huh0olwcu6zz61j5egk
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Parrish Sewer Improvements
@@ -2845,6 +3024,7 @@
   id: 180
   access_key: key-2cuyvjxct7vubglu16mf
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Pedestrian Safety Project
@@ -2861,16 +3041,18 @@
   id: 181
   access_key: key-2a3a25wuurv570r8usd8
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: PET Project (Preparing & Educating with Technology)
-  updated_at: 2009-06-23 00:09:26 Z
-  plain_text: "-"
+  updated_at: 2009-06-25 21:44:32 Z
+  plain_text: ""
   scribd_doc_id: 16662107
   source_url: http://aderholt.house.gov/uploads/PET%20Project%20(Preparing%20&%20Educating%20with%20Technology).pdf
   id: 182
   access_key: key-ttcc6183950zq476c2q
   legislator_id: 1
+  conversion_failed: true
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Phil Campbell Industrial Park Base and Pave
@@ -2887,6 +3069,7 @@
   id: 183
   access_key: key-1cc5okc6ywft2we54ce6
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Phil Campbell Industrial Park Grade and Drain
@@ -2903,6 +3086,7 @@
   id: 184
   access_key: key-1bqht4o4mgjt9lru9cu4
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Phil Campbell Industrial Park Water Infrastructure Development
@@ -2919,6 +3103,7 @@
   id: 185
   access_key: key-u5agyqpvidopedwy82
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Pickens County Courthouse Preservation, Phase III
@@ -2935,6 +3120,7 @@
   id: 186
   access_key: key-1xhldu8jchkuw3wlrsu2
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Pictometry Project for the 4th Congressional District, AL
@@ -2951,6 +3137,7 @@
   id: 187
   access_key: key-1b53q3bie1f0cb1njpkq
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Police Technology Upgrades
@@ -2967,6 +3154,7 @@
   id: 188
   access_key: key-1wk1k7r0jz97os74hrp3
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Police Training Technology
@@ -2983,6 +3171,7 @@
   id: 189
   access_key: key-ea0a0ky6un8nttx6fzq
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Precisions Agriculture and Forestry
@@ -2999,6 +3188,7 @@
   id: 190
   access_key: key-1inght8uz9inmovq3afe
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Probe Optical Adjunct Sensor
@@ -3015,16 +3205,18 @@
   id: 191
   access_key: key-2261yfjac3ln6810g019
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Product Lifecycle Management (PLM) and Advanced Modeling & Simulation for Manufacuturing
-  updated_at: 2009-06-23 00:10:02 Z
-  plain_text: "-"
+  updated_at: 2009-06-25 21:44:33 Z
+  plain_text: ""
   scribd_doc_id: 16662179
   source_url: http://aderholt.house.gov/uploads/Product%20Lifecycle%20Management%20(PLM)%20and%20Advanced%20Modeling%20&%20Simulation%20for%20Manufacuturing.pdf
   id: 192
   access_key: key-23hidxahdvetxib7n783
   legislator_id: 1
+  conversion_failed: true
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Protective Self-Decontaminating Surfaces
@@ -3041,6 +3233,7 @@
   id: 193
   access_key: key-1cm5tj8nfwqdvw5vsbmt
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Prototype Integration Facility Enterprise Resource Planning
@@ -3057,6 +3250,7 @@
   id: 194
   access_key: key-u5agyqpvidopedwy82
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Pryor Field Airport Instrument Landing System, Pryor Field, Decatur, AL
@@ -3073,6 +3267,7 @@
   id: 195
   access_key: key-2jskfsndy9pgr8fh17xz
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Public Safety Mobile Data System
@@ -3089,6 +3284,7 @@
   id: 196
   access_key: key-6wkr76jr62i5fq4zhil
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Pump Station and Sewer Line Extention to serve City owned Industrial Park, Fort Payne, AL
@@ -3105,6 +3301,7 @@
   id: 197
   access_key: key-18oqklkl3xtu5gph8i5s
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Purchase and Installation of Heating and Air Conditioning for the Guntersville Museum, Guntersville, AL
@@ -3121,6 +3318,7 @@
   id: 198
   access_key: key-pngiyncmjurt7dtffc0
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Remlap Pine Mountain Water Source and Treatment Facility, Blount County, AL
@@ -3137,6 +3335,7 @@
   id: 199
   access_key: key-q8qlw3cij5yh6108ap
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Remote Monitoring and Troubleshooting (RMAT) Project
@@ -3153,16 +3352,18 @@
   id: 200
   access_key: key-2ejr6d9qgbkwqabeyl72
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: "Renovation of Sewer Pumping Stations #6, 7, & 8, Haleyville, AL"
-  updated_at: 2009-06-23 00:10:36 Z
-  plain_text: "-"
+  updated_at: 2009-06-25 21:44:34 Z
+  plain_text: ""
   scribd_doc_id: 16662246
   source_url: http://aderholt.house.gov/uploads/Renovation%20of%20Sewer%20Pumping%20Stations#6,%207,%20&%208,%20Haleyville,%20AL.pdf
   id: 201
   access_key: key-2hwrzyowju56ufdt01ux
   legislator_id: 1
+  conversion_failed: true
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Replace Rehab Wastewater Treatment Plant Pumps, Fort Payne, AL
@@ -3179,6 +3380,7 @@
   id: 202
   access_key: key-2218u3mzg3mljutx4xd4
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Replacement of 1964 Sewer Line-Phase I, Hanceville, AL
@@ -3195,6 +3397,7 @@
   id: 203
   access_key: key-w0fmp49hzetggt03wz9
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Reset to Rebuild Standards (RRS) Program fro the Army National Guard M872 Series Trailer)
@@ -3211,6 +3414,7 @@
   id: 204
   access_key: key-1g22g4jttn0hxtef1351
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Robotics Technology Park, Phases II and III
@@ -3227,6 +3431,7 @@
   id: 205
   access_key: key-23m3s0dg98hp09w4vtg2
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Roof for Gadsden
@@ -3243,6 +3448,7 @@
   id: 206
   access_key: key-1sybo9n2l2vs5991pzwp
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: RSVP Environmental Community Center
@@ -3259,6 +3465,7 @@
   id: 207
   access_key: key-21zkvt3680jfw7pftosw
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Rural Connection through Technology
@@ -3275,6 +3482,7 @@
   id: 208
   access_key: key-15zansry52p2c5hdvdhf
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Rural Health and Dental Clinic
@@ -3291,6 +3499,7 @@
   id: 209
   access_key: key-2oxzbp41sku0advrsyjm
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Sanitary Sewer Extension on Lookout Mountain, Gadsden, AL
@@ -3307,6 +3516,7 @@
   id: 210
   access_key: key-1pvouwx5bypw0nf96584
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Sanitary Sewer Rehabilitation, City of Attalla
@@ -3323,6 +3533,7 @@
   id: 211
   access_key: key-2l9rpxowstujhebcmm1a
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Save Our Neighborhoods
@@ -3339,6 +3550,7 @@
   id: 212
   access_key: key-2a5iufpgsnnorpqw3ype
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Scenario Generation for IAMD Evaluation (SGIE)
@@ -3355,6 +3567,7 @@
   id: 213
   access_key: key-11v9eeh2j9coqdu5in7v
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Science Laboratory Project, NWCC, Muscle Shoals, AL
@@ -3371,16 +3584,18 @@
   id: 214
   access_key: key-sg1jgu5me4krwofd54d
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Security & Information Technology Improvements
-  updated_at: 2009-06-23 00:11:52 Z
-  plain_text: "-"
+  updated_at: 2009-06-25 21:44:36 Z
+  plain_text: ""
   scribd_doc_id: 16662348
   source_url: http://aderholt.house.gov/uploads/Security%20&%20Information%20Technology%20Improvements.pdf
   id: 215
   access_key: key-2kgw4izu4geecki3gnwd
   legislator_id: 1
+  conversion_failed: true
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Sewer Collection System I-I Repair, Cordova, AL
@@ -3397,6 +3612,7 @@
   id: 216
   access_key: key-12m93gn3t29p5lispurf
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Sewer Line Expansion HWY 69, Good Hope, AL
@@ -3413,6 +3629,7 @@
   id: 217
   access_key: key-2ghxop1ypizllceaezaa
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Sewer Pump Station on Airport Road at Huddle House
@@ -3429,16 +3646,18 @@
   id: 218
   access_key: key-1e4qt1da5hviepg14b0l
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Short & Long Term Drug Treatment for Men, Women and Families
-  updated_at: 2009-06-23 00:12:09 Z
-  plain_text: "-"
+  updated_at: 2009-06-25 21:44:37 Z
+  plain_text: ""
   scribd_doc_id: 16662385
   source_url: http://aderholt.house.gov/uploads/Short%20&%20Long%20Term%20Drug%20Treatment%20for%20Men,%20Women%20and%20Families.pdf
   id: 219
   access_key: key-lhlh7w3l1hfz15v7kh7
   legislator_id: 1
+  conversion_failed: true
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Skylab Trainer Restoration, Huntsville, AL
@@ -3455,6 +3674,7 @@
   id: 220
   access_key: key-19lsgps4a37djrbr2w1q
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Sloss Furnaces National Historic Landmark Visitor Center, Birmingham, AL
@@ -3471,6 +3691,7 @@
   id: 221
   access_key: key-1uu418ajtpcnwgbjuhce
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: SMART Classroom Technology
@@ -3487,6 +3708,7 @@
   id: 222
   access_key: key-2md2jz6s3qficvwdmcwe
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Snead Water Supply Improvements
@@ -3503,6 +3725,7 @@
   id: 223
   access_key: key-rwquueh4b0cgvlx55e3
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Somerville Public Library Expansion
@@ -3519,6 +3742,7 @@
   id: 224
   access_key: key-1jxtzhe8dn1wxk7nnzz8
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Southside Bridge - Highway 77
@@ -3535,6 +3759,7 @@
   id: 225
   access_key: key-1pjin24355atenlgghz1
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Student Satellite Systems Laboratory
@@ -3551,6 +3776,7 @@
   id: 226
   access_key: key-22d5g30jxaq7krop0sh8
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Sumiton I I Study and Rehab
@@ -3567,6 +3793,7 @@
   id: 227
   access_key: key-1ko5ljnhdh3l3nz9s66k
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: SWARMS DEFENSE SYSTEMS
@@ -3583,6 +3810,7 @@
   id: 228
   access_key: key-hxrx6yeenp9785ibmpv
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Tactical UAV, Heavy Fuel Engine
@@ -3599,6 +3827,7 @@
   id: 229
   access_key: key-1qfnkui51vx7fs5itin2
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: technical assistance for alabama soil and water conservation committee
@@ -3615,16 +3844,18 @@
   id: 230
   access_key: key-z690jj4s2k7v8ipuhe4
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: "TextileClothing Technology Corporation - TC\xC3\x82\xC2\xB2"
-  updated_at: 2009-06-23 00:12:54 Z
-  plain_text: "-"
+  updated_at: 2009-06-25 21:44:39 Z
+  plain_text: ""
   scribd_doc_id: 16662503
   source_url: http://aderholt.house.gov/uploads/TextileClothing%20Technology%20Corporation%20-%20TC%C3%82%C2%B2.pdf
   id: 231
   access_key: key-2m31d2bo52ub1pb4umuk
   legislator_id: 1
+  conversion_failed: true
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Town of Berry Water System Improvements
@@ -3641,6 +3872,7 @@
   id: 232
   access_key: key-oce60sfwngfsdvnoy5n
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Town of Grant Infrastructure
@@ -3657,6 +3889,7 @@
   id: 233
   access_key: key-dv94yctx9cg26nceues
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Town of Vina Industrial Park
@@ -3673,6 +3906,7 @@
   id: 234
   access_key: key-1bxww6izqhazccuei2k9
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Traffic Signalization and Other Related Project, Guntersville
@@ -3689,6 +3923,7 @@
   id: 235
   access_key: key-273fzmw7ncstd5lohhhb
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Transitioning Stretch Broken Carbon Fiber to Production Programs
@@ -3705,6 +3940,7 @@
   id: 236
   access_key: key-1tsbpb8qhgxvwt836uet
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: U.S. Highway 43 Highway Improvement at Northfork Creek, Marion County, AL
@@ -3721,16 +3957,18 @@
   id: 237
   access_key: key-2oxahmtzu1wkwgacwjm9
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: U.S. Space & Rocket Center Transportation Request, Huntsville, AL
-  updated_at: 2009-06-23 00:13:20 Z
-  plain_text: "-"
+  updated_at: 2009-06-25 21:44:40 Z
+  plain_text: ""
   scribd_doc_id: 16662596
   source_url: http://aderholt.house.gov/uploads/U.S.%20Space%20&%20Rocket%20Center%20Transportation%20Request,%20Huntsville,%20AL.pdf
   id: 238
   access_key: key-2cnauxluvqfmmiltsn4g
   legislator_id: 1
+  conversion_failed: true
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: University of North Alabama Green Campus Initiative
@@ -3747,6 +3985,7 @@
   id: 239
   access_key: key-2l4loeo29t0hej0y5jqu
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: University of West Alabama Emergency Operations Center
@@ -3763,6 +4002,7 @@
   id: 240
   access_key: key-1r1879sbzf93p55x2bor
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: University of West Alabama Student and Community Health Center, Livingston, AL
@@ -3779,6 +4019,7 @@
   id: 241
   access_key: key-75uym2po5r1lx75x6kf
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Upgrade of Sewer Disinfection System at Wastewater Treatment Plant, Good Hope, AL
@@ -3795,6 +4036,7 @@
   id: 242
   access_key: key-914983zjfpvo93vub10
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Upgrade of Wastewater Treatment Plant and Collection Facilities, Rainsville, AL
@@ -3811,6 +4053,7 @@
   id: 243
   access_key: key-oad6tv08w7yoe18z9ay
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Upper Bear Creek Water Improvements Project, Haleyville, AL
@@ -3827,6 +4070,7 @@
   id: 244
   access_key: key-2noukrxq5nog7uohfsae
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Valley Head Downtown Sewer Project
@@ -3843,6 +4087,7 @@
   id: 245
   access_key: key-241knpujucaxp774yn13
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Virtual Environment Simulation Laboratory (CAVE)
@@ -3859,6 +4104,7 @@
   id: 246
   access_key: key-2768k1epriyavkebj6n7
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Virtual Incubator Program
@@ -3875,6 +4121,7 @@
   id: 247
   access_key: key-24keb2xqnlqpq992s92a
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: VISTA - Vertical & Horizontal Integration of Space Technology Assets
@@ -3891,6 +4138,7 @@
   id: 248
   access_key: key-20dczu20pw3i51umv5l9
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Wastewater Treatment Plant and Pumping Facilities Upgrade, Holly Pond, AL
@@ -3907,6 +4155,7 @@
   id: 249
   access_key: key-1jcgjkhrt7m174fx6t3z
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Wastewater Treatment Plant Restoration, Hartselle, AL
@@ -3923,6 +4172,7 @@
   id: 250
   access_key: key-mtuunn4nhn6o2dag7wk
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Water Distribution System Improvements, DeKalb County, AL
@@ -3939,6 +4189,7 @@
   id: 251
   access_key: key-t8o4zs4lbg3x8nn2oub
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Water Line Rehabilitation, Steele, AL
@@ -3955,6 +4206,7 @@
   id: 252
   access_key: key-16pje24nx8de3x88oim9
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: WaterWATCH april 4
@@ -3971,6 +4223,7 @@
   id: 253
   access_key: key-96gayf8n3vbmiqc12a3
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Widening and Improvements of Wall Triana Highway from Highway 72 to Madison Blvd, Madison, AL
@@ -3987,6 +4240,7 @@
   id: 254
   access_key: key-44ga1qcrknw8qyyntex
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Widening of Alabama Highway 157 and Lake Catoma Bridge, Cullman, AL
@@ -4003,6 +4257,7 @@
   id: 255
   access_key: key-1terwe0iodwfsgizm51q
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Widening of US Highway 278 and St. Bernard Bridge
@@ -4019,6 +4274,7 @@
   id: 256
   access_key: key-pi5lxuci5kh8ejnf6k4
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Windows Unlimited Day Habilitation
@@ -4035,6 +4291,7 @@
   id: 257
   access_key: key-mxu7meihmea0s5qd0pj
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Winfield Industrial Park Base and Pave
@@ -4051,6 +4308,7 @@
   id: 258
   access_key: key-23odxqciz2or1wej6zdj
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Winfield Industrial Park Sewer Improvement
@@ -4067,6 +4325,7 @@
   id: 259
   access_key: key-1kf2nxbdc3yb9cgqeqk1
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Winfield Industrial Park Water Infrastructure Improvements
@@ -4083,6 +4342,7 @@
   id: 260
   access_key: key-rcndb0dvylevo3g343i
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Winston County Emergency Operations Equipment
@@ -4099,6 +4359,7 @@
   id: 261
   access_key: key-6fslpl13c0huhziojf9
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Winston County Industrial Park Base and Pave
@@ -4115,6 +4376,7 @@
   id: 262
   access_key: key-bfb3kv9gq1elmbts8fa
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Winston County Industrial Park Grade and Drain
@@ -4131,6 +4393,7 @@
   id: 263
   access_key: key-lioa8p8yzdghu7t8tr
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Winston County Industrial Park Water Infrastructure Development
@@ -4147,6 +4410,7 @@
   id: 264
   access_key: key-2op1qsi3f52yfvwvvbnm
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Wireless Area Network (WAN)
@@ -4163,6 +4427,7 @@
   id: 265
   access_key: key-pwlxag0kl7m1kkg9006
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Workforce Development and Scholarship Project, Gadsden, AL
@@ -4179,6 +4444,7 @@
   id: 266
   access_key: key-16hva8jxhn76kh11f3m9
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Workforce Training Capacity Expansion
@@ -4195,6 +4461,7 @@
   id: 267
   access_key: key-6bdd6wqqnxvtq8pye6k
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Zerometh Drug Prevention Campaign
@@ -4211,6 +4478,7 @@
   id: 268
   access_key: key-vd63ozs1nvjic9b85st
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Alabama Center for Advancing Woodworking Technology
@@ -4227,6 +4495,7 @@
   id: 269
   access_key: key-16hslfu6dwf2gr8tp1ea
   legislator_id: 1
+  conversion_failed: false
 - created_at: 2009-06-22 15:15:41 Z
   source_file: 
   title: Sulligent Water Supply Project
@@ -4239,3 +4508,4 @@
   id: 270
   access_key: key-6vw09uqq5l9g1rjqsxr
   legislator_id: 1
+  conversion_failed: false
