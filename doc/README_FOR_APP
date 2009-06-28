@@ -5,3 +5,7 @@ Letter
 * A user's analysis / interpretation / cutting-and-pasting / response in
   response to a source document.
   
+Setup:
+  rake db:create
+  rake db:migrate
+  rake data:restore:all
