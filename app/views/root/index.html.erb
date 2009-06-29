@@ -1,43 +1,33 @@
 <div class="column_1">
   <%= render :partial => "tabs" %>
 </div>
+
 <div class="column_2">
   <div class="content">
+    
     <% if flash[:error] %>
       <div class="flash_error"><%= flash[:error] %></div>
     <% elsif flash[:notice] %>
       <div class="flash_notice"><%= flash[:notice] %></div>
     <% end %>
-    <h2>Help Us Gather Earmark Data</h2>
+    
     <%= render :partial => "user_message" %>
     
     <p>
-       Thanks for helping us make sense out of earmarks. On the left, 
-you'll see a federal earmark that comes from a Member of Congress' 
-website, and on the right, you'll see the fields we need to get out of 
-the data. 
-</p>
-<p>
-We've also included the original PDF file of the earmark 
-request at the bottom. We've actually written some software to 
-pre-populate some of these fields for you, but if you see any errors in 
-them, make sure to correct them. Computers aren't perfect, after all. 
-</p>
-<p>
-Just find the data from the text on the left, and paste it into the 
-relevant field on the right. When you're done, click on the "Submit" and 
-you'll get a new earmark request.
-</p>
+      Thanks for helping us make sense out of earmarks. On the left, you'll see a federal earmark request that comes from the website of a Member of Congress, and on the right, you'll see the fields we need to get.
     </p>
-
+    <p>
+      Just paste the information from the text on the left, into the relevant field on the right. When you're done, click "Done!" to start a new earmark request.  If the text is difficult to read, you can see the original PDF by clicking "Source Doc" above the text.
+    </p>
     <% if @prepopulated %>
-      <p>We have pre-populated the form below.  Please verify and correct it using the source document on the left.</p>
-    <% else %>
-      <p>Please fill out the form below.  Use data from the source document on the left.</p>
+      <p>
+        We've actually written some software to pre-populate some of these fields for you, but we need you to correct us where we're wrong, and fill in the fields where we couldn't find anything. Computers aren't perfect, after all. 
+      </p>
     <% end %>
+    
     <%= render :partial => "letter_form", :locals => { :letter => @letter } %>
+    
   </div>
 </div>
-</div>
-<div class="clear_floats">
-</div>
+
+<div class="clear_floats"></div>
