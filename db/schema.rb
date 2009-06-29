@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090626161948) do
+ActiveRecord::Schema.define(:version => 20090629002929) do
 
   create_table "entities", :force => true do |t|
     t.integer  "letter_id"
@@ -57,7 +57,7 @@ ActiveRecord::Schema.define(:version => 20090626161948) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.boolean  "conversion_failed", :default => false
-    t.integer  "plain_text_length"
+    t.integer  "plain_text_length", :default => 0
   end
 
   add_index "source_docs", ["conversion_failed"], :name => "index_source_docs_on_conversion_failed"
