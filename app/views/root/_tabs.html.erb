@@ -9,15 +9,18 @@
     :partial => "source_doc"
   }
   
-  tabs = [plain, source]
+  tabs = @has_plain_text ? [plain, source] : [source]
 %>
 
 <div id="tabs">
-  <ul>
-    <% tabs.each do |tab| %>
-      <li><%= tab[:nav] %></li>
-    <% end %>
-  </ul>
+  <% if tabs.size > 1 %>
+    <ul>
+      <% tabs.each do |tab| %>
+        <li><%= tab[:nav] %></li>
+      <% end %>
+    </ul>
+  <% end %>
+  
   <% tabs.each do |tab| %>
     <%= render :partial => tab[:partial] %>
   <% end %>
