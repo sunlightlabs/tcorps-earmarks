@@ -17,14 +17,12 @@ class RootController < ApplicationController
     @letter = Letter.new(clean_letter_params(params[:letter]))
     if params["add_new_entity"]
       @letter.entities << Entity.new
-      flash.now[:notice] = "Added a new entity."
       setup_and_render_index
     elsif params["delete_entity"]
       params["delete_entity"].keys.each do |key|
         entity_id = key.to_i
         @letter.entities.delete_at(entity_id)
       end
-      flash.now[:notice] = "Removed an entity."
       setup_and_render_index
     elsif @letter.save
       report_completion
