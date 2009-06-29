@@ -28,7 +28,6 @@ class RootController < ApplicationController
       report_completion
       redirect_to :action => :success
     else
-      flash.now[:error] = "There was an error."
       setup_and_render_index
     end
   end

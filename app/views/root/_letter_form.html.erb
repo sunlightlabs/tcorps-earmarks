@@ -1,5 +1,15 @@
 <% form_for letter, :url => { :action => :create } do |f| %>
-  <%= f.error_messages %>
+  <% if letter.errors.any? %>
+    <div class="errorExplanation" id="errorExplanation">
+      <ul>
+        <% letter.errors.full_messages.each do |message| %>
+          <li>
+            <%= message %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
 
   <div class="field">
     <%= f.label :amount, "Amount" %>
