@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(:version => 20090702145212) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.boolean  "done"
+    t.boolean  "done",       :default => false
   end
 
   add_index "legislators", ["done"], :name => "index_legislators_on_done"
