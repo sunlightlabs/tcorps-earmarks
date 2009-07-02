@@ -2,9 +2,9 @@
 # * url should point to a page that has a list of PDF documents
 # * css_rule should select each A tag that you care about
 --- 
-# Robert Aderholt:
-#   url: "http://aderholt.house.gov/?sectionid=242&sectiontree=4,210,242&itemid=881"
-#   css_rule: "div.contentdata > p > a"
+Robert Aderholt:
+  url: "http://aderholt.house.gov/?sectionid=242&sectiontree=4,210,242&itemid=881"
+  css_rule: "div.contentdata > p > a"
 
 Jackie Speier:
   url: "http://speier.house.gov/index.cfm?sectionid=102&sectiontree=53,102"
