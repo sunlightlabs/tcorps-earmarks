@@ -77,9 +77,10 @@ namespace :data do
             count += 1
             puts "  Saved plain text for SourceDoc id #{source_doc.id}."
           elsif status == "ERROR"
+            source_doc.plain_text = ""
             source_doc.conversion_failed = true
             source_doc.save!
-            puts "  The Scribd document conversion failed, or is not complete. Try again in a bit."
+            puts "  The Scribd document conversion failed.  Saving '' to plain text field."
           else
             puts "  Scribd reports this status: #{status}."
           end
