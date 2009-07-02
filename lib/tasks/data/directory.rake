@@ -7,18 +7,18 @@ namespace :data do
     LEGISLATOR_URLS = "#{RAILS_ROOT}/data/earmark_letter_sources.yml"
     LETTER_URLS_DIR = "#{RAILS_ROOT}/data/generated"
     
-    desc "Reset directory; destroys YAML, SourceDoc, Legislator databases."
-    task :reset => [:fetch, :refresh_db]
+#     desc "Reset directory; destroys YAML, SourceDoc, Legislator databases."
+#     task :reset => [:fetch, :refresh_db]
 
-    desc "Refresh the Legislator and SourceDoc databases."
-    task :refresh_db => [:delete_db, :load_into_db]
+#     desc "Refresh the Legislator and SourceDoc databases."
+#     task :refresh_db => [:delete_db, :load_into_db]
 
-    desc "Delete all rows from SourceDoc & Legislator"
-    task :delete_db => :environment do
-      puts "Deleting all rows in #{SourceDoc.table_name} and #{Legislator.table_name}."
-      SourceDoc.delete_all
-      Legislator.delete_all
-    end
+#     desc "Delete all rows from SourceDoc & Legislator"
+#     task :delete_db => :environment do
+#       puts "Deleting all rows in #{SourceDoc.table_name} and #{Legislator.table_name}."
+#       SourceDoc.delete_all
+#       Legislator.delete_all
+#     end
     
     # Note: the "fetch" and "load_into_db" tasks are highly coupled!
     
@@ -66,17 +66,21 @@ namespace :data do
         puts "  Reading file named #{filename}"
         data = YAML::load_file(filename)
         data.each do |legislator_name, letters|
-          puts "    Creating Legislator named #{legislator_name}."
-          legislator = Legislator.create!(
-            :name => legislator_name
-          )
+          if legislator = Legislator.find_by_name(legislator_name)
+            puts "    Found existing legislator named #{legislator_name}."
+          else
+            puts "    Creating Legislator named #{legislator_name}."
+            legislator = Legislator.create! :name => legislator_name
+          end
+          
           puts "    Writing letters to #{SourceDoc.table_name}."
           letters.each do |letter|
-            SourceDoc.create!(
-              :title      => make_title(letter["content"]),
+            source_doc = SourceDoc.find_or_create_by_title make_title(letter['content'])
+            source_doc.attributes = {
               :source_url => letter["href"],
               :legislator => legislator
-            )
+            }
+            source_doc.save!
           end
         end
       end
