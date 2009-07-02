@@ -8,8 +8,8 @@ test:
 
 staging:
   tcorps_url: http://tcorps.sunlightlabs.com
-  form_prepopulation: true
+  form_prepopulation: false
   
 production:
   tcorps_url: http://transparencycorps.org
-  form_prepopulation: true
+  form_prepopulation: false
