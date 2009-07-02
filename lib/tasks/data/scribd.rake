@@ -5,19 +5,26 @@ namespace :data do
     desc "Tell Scribd to grab PDFs as specified by SourceDoc database."
     task :populate => :environment do
       puts "Using Scribd API to fetch SourceDocs urls"
-      SourceDoc.all.each do |source_doc|
+      source_docs = if ENV['LEGISLATOR_ID'] and legislator = Legislator.find_by_id(ENV['LEGISLATOR_ID'])
+        legislator.source_docs.all
+      else
+        SourceDoc.all
+      end
+      
+      source_docs.each do |source_doc|
         if source_doc.scribd_doc_id
           puts "  Skipping SourceDoc id #{source_doc.id}; already stored at Scribd id #{source_doc.scribd_doc_id}"
-          next
+        else
+          if scribd_doc = create_scribd_doc(source_doc)
+            source_doc.scribd_doc_id = scribd_doc.doc_id
+            source_doc.access_key    = scribd_doc.access_key
+            source_doc.save!
+          end
+          puts "  Sleeping 10 seconds"
+          sleep 10
         end
-        if create_scribd_doc(source_doc)
-          source_doc.scribd_doc_id = scribd_doc.doc_id
-          source_doc.access_key    = scribd_doc.access_key
-          source_doc.save!
-        end
-        puts "  Sleeping 10 seconds"
-        sleep 10
       end
+
       puts "Scribd loading complete."
     end
     
@@ -37,7 +44,14 @@ namespace :data do
       END
       scribd_doc.license = "pd" # Public Domain
       scribd_doc.tags = "earmark request,sunlight foundation"
-      scribd_doc.save
+      
+      if scribd_doc.save 
+        puts "  Successfully sent to scribd!"
+        scribd_doc
+      else
+        puts "  Failed to send document to scribd."
+        nil
+      end
     end
 
     # This was used as a one-off task.

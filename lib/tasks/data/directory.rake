@@ -42,7 +42,7 @@ namespace :data do
         letters = []
         nodes.each do |node|
           letters << {
-            "href"    => node["href"],
+            "href"    => simple_encode(node["href"]),
             "content" => node.content
           }
         end
@@ -75,9 +75,9 @@ namespace :data do
           
           puts "    Writing letters to #{SourceDoc.table_name}."
           letters.each do |letter|
-            source_doc = SourceDoc.find_or_create_by_title make_title(letter['content'])
+            source_doc = SourceDoc.find_or_create_by_source_url letter['href']
             source_doc.attributes = {
-              :source_url => letter["href"],
+              :title => make_title(letter['content']),
               :legislator => legislator
             }
             source_doc.save!
@@ -87,6 +87,10 @@ namespace :data do
       puts "Done loading data into #{SourceDoc.table_name}."
     end
 
+  end
+  
+  def simple_encode(string)
+    string.gsub ' ', '%20'
   end
   
 end
