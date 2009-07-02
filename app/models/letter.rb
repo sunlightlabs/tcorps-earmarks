@@ -10,14 +10,11 @@ class Letter < ActiveRecord::Base
   validates_associated :entities
   accepts_nested_attributes_for :entities
   
-  validates_presence_of :amount
-  validates_numericality_of :amount, :greater_than => 0
   before_validation :validate_amount
 
   validates_presence_of :project_title
   validates_presence_of :fiscal_year
   validates_presence_of :funding_purpose
-  validates_presence_of :taxpayer_justification
   validates_presence_of :task_key
 
   def amount=(raw)
