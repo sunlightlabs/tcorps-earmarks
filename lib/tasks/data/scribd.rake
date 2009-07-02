@@ -20,8 +20,8 @@ namespace :data do
             source_doc.access_key    = scribd_doc.access_key
             source_doc.save!
           end
-          puts "  Sleeping 10 seconds"
-          sleep 10
+          puts "  Sleeping 5 seconds"
+          sleep 5
         end
       end
 
@@ -77,10 +77,9 @@ namespace :data do
             count += 1
             puts "  Saved plain text for SourceDoc id #{source_doc.id}."
           elsif status == "ERROR"
-            source_doc.plain_text = ""
             source_doc.conversion_failed = true
             source_doc.save!
-            puts "  The Scribd document conversion failed.  Saving '' to plain text field."
+            puts "  The Scribd document conversion failed, or is not complete. Try again in a bit."
           else
             puts "  Scribd reports this status: #{status}."
           end
