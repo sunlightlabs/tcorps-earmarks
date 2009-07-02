@@ -7,19 +7,6 @@ namespace :data do
     LEGISLATOR_URLS = "#{RAILS_ROOT}/data/earmark_letter_sources.yml"
     LETTER_URLS_DIR = "#{RAILS_ROOT}/data/generated"
     
-#     desc "Reset directory; destroys YAML, SourceDoc, Legislator databases."
-#     task :reset => [:fetch, :refresh_db]
-
-#     desc "Refresh the Legislator and SourceDoc databases."
-#     task :refresh_db => [:delete_db, :load_into_db]
-
-#     desc "Delete all rows from SourceDoc & Legislator"
-#     task :delete_db => :environment do
-#       puts "Deleting all rows in #{SourceDoc.table_name} and #{Legislator.table_name}."
-#       SourceDoc.delete_all
-#       Legislator.delete_all
-#     end
-    
     # Note: the "fetch" and "load_into_db" tasks are highly coupled!
     
     desc "Fetch earmark request letter URLs and save to YAML."
@@ -42,8 +29,8 @@ namespace :data do
         letters = []
         nodes.each do |node|
           letters << {
-            "href"    => simple_encode(node["href"]),
-            "content" => node.content
+            "href"    => URI.join(url, simple_encode(node["href"])).to_s,
+            "content" => simple_cleanse(node.content)
           }
         end
 
@@ -91,6 +78,10 @@ namespace :data do
   
   def simple_encode(string)
     string.gsub ' ', '%20'
+  end
+  
+  def simple_cleanse(string)
+    string.gsub /\r?\n\s*/, ' '
   end
   
 end
