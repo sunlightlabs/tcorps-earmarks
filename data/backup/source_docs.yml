@@ -4512,7 +4512,7 @@
 - created_at: 2009-07-02 14:41:32 Z
   source_file: 
   title: Financial Disclosure Statement
-  updated_at: 2009-07-02 15:44:07 Z
+  updated_at: 2009-07-02 16:53:07 Z
   plain_text: !binary |
     DA==
 
@@ -4525,7 +4525,7 @@
 - created_at: 2009-07-02 14:41:32 Z
   source_file: 
   title: Financial Disclosure Statement
-  updated_at: 2009-07-02 15:44:09 Z
+  updated_at: 2009-07-02 16:53:08 Z
   plain_text: !binary |
     DA==
 
@@ -4538,7 +4538,7 @@
 - created_at: 2009-07-02 14:41:32 Z
   source_file: 
   title: Financial Disclosure Statement
-  updated_at: 2009-07-02 15:44:10 Z
+  updated_at: 2009-07-02 16:53:10 Z
   plain_text: !binary |
     DA==
 
@@ -4551,7 +4551,7 @@
 - created_at: 2009-07-02 14:41:32 Z
   source_file: 
   title: Financial Disclosure Statement
-  updated_at: 2009-07-02 15:44:12 Z
+  updated_at: 2009-07-02 16:53:12 Z
   plain_text: !binary |
     DA==
 
@@ -4564,7 +4564,7 @@
 - created_at: 2009-07-02 14:41:32 Z
   source_file: 
   title: Financial Disclosure Statement
-  updated_at: 2009-07-02 15:44:15 Z
+  updated_at: 2009-07-02 16:53:13 Z
   plain_text: !binary |
     DA==
 
@@ -4577,7 +4577,7 @@
 - created_at: 2009-07-02 14:41:32 Z
   source_file: 
   title: Financial Disclosure Statement
-  updated_at: 2009-07-02 15:44:17 Z
+  updated_at: 2009-07-02 16:53:15 Z
   plain_text: !binary |
     DA==
 
@@ -4590,7 +4590,7 @@
 - created_at: 2009-07-02 14:41:32 Z
   source_file: 
   title: Financial Disclosure Statement
-  updated_at: 2009-07-02 15:44:19 Z
+  updated_at: 2009-07-02 16:53:32 Z
   plain_text: !binary |
     DA==
 
@@ -4603,7 +4603,7 @@
 - created_at: 2009-07-02 15:34:16 Z
   source_file: 
   title: Financial Disclosure Statement
-  updated_at: 2009-07-02 15:44:21 Z
+  updated_at: 2009-07-02 16:53:33 Z
   plain_text: !binary |
     DA==
 
@@ -4616,7 +4616,7 @@
 - created_at: 2009-07-02 15:34:16 Z
   source_file: 
   title: Financial Disclosure Statement
-  updated_at: 2009-07-02 15:44:23 Z
+  updated_at: 2009-07-02 16:53:35 Z
   plain_text: !binary |
     DA==
 
@@ -4625,4 +4625,352 @@
   id: 551
   access_key: key-1o6h1pilotjz7wq5r452
   legislator_id: 3
+  conversion_failed: false
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: Bovine Tuberculosis Disease and Control and Eradication Program
+  updated_at: 2009-07-02 23:10:41 Z
+  plain_text: !binary |
+    DAwM
+
+  scribd_doc_id: 17049635
+  source_url: http://collinpeterson.house.gov/PDF/TB%20request%20letter.pdf
+  id: 552
+  access_key: key-1zqapo5hd1fdyy1xmf8e
+  legislator_id: 4
+  conversion_failed: false
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: "Center for Rural Entrepreneurial Studies at the University of  Minnesota, Crookston "
+  updated_at: 2009-07-02 23:10:42 Z
+  plain_text: !binary |
+    DA==
+
+  scribd_doc_id: 17049641
+  source_url: http://collinpeterson.house.gov/PDF/Ed%20approps%20-%20Center%20for%20Rural%20Entrepreneurial%20Studies.pdf
+  id: 553
+  access_key: key-2czym3muzdhsmpnxi32o
+  legislator_id: 4
+  conversion_failed: false
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: City of Detroit Lakes Crescent Parkway Improvements
+  updated_at: 2009-07-02 23:16:01 Z
+  plain_text: ""
+  scribd_doc_id: 17049647
+  source_url: http://collinpeterson.house.gov/PDF/Crescent%20Parkway,%20Detroit%20Lakes.pdf
+  id: 554
+  access_key: key-fy2uubkq1n02xavufnu
+  legislator_id: 4
+  conversion_failed: true
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: City of Moorhead, SE Main Ave, 20th, 21st Street Underpass and Ancillary Improvements
+  updated_at: 2009-07-02 23:16:01 Z
+  plain_text: ""
+  scribd_doc_id: 17049650
+  source_url: http://collinpeterson.house.gov/PDF/City%20of%20Moorhead,%20Underpass%20and%20Ancillary%20Improvements.pdf
+  id: 555
+  access_key: key-21p4o2h7i9rjjmxhgpml
+  legislator_id: 4
+  conversion_failed: true
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: City of Staples North South Corridor with Railroad Overpass
+  updated_at: 2009-07-02 23:16:01 Z
+  plain_text: ""
+  scribd_doc_id: 17049653
+  source_url: http://collinpeterson.house.gov/PDF/City%20of%20Staples,%20Overpass.pdf
+  id: 556
+  access_key: key-tgq55z8g2gbc71fheb2
+  legislator_id: 4
+  conversion_failed: true
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: Enhancing Barley Through Genomics
+  updated_at: 2009-07-02 23:10:44 Z
+  plain_text: !binary |
+    DAw=
+
+  scribd_doc_id: 17049656
+  source_url: http://collinpeterson.house.gov/PDF/Barley%20Genomics%20request%20letter.pdf
+  id: 557
+  access_key: key-buybzn7vm7b20gmlzu1
+  legislator_id: 4
+  conversion_failed: false
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: Lyon County Interchange on TH 23 at CSAH 7
+  updated_at: 2009-07-02 23:10:46 Z
+  plain_text: !binary |
+    DA==
+
+  scribd_doc_id: 17049659
+  source_url: http://collinpeterson.house.gov/PDF/Lyon%20Co.%20Interchange.pdf
+  id: 558
+  access_key: key-1kkn189cscp2wvbh248g
+  legislator_id: 4
+  conversion_failed: false
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: Minnesota National Guard Beyond the Yellow Ribbon Reintegration Program
+  updated_at: 2009-07-02 23:10:48 Z
+  plain_text: !binary |
+    DA==
+
+  scribd_doc_id: 17049661
+  source_url: http://collinpeterson.house.gov/PDF/MN%20Nat%20Guard%20Yellow%20Ribbon.pdf
+  id: 559
+  access_key: key-te1b5qy0d4v96yca1xy
+  legislator_id: 4
+  conversion_failed: false
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: Minnesota River at Granite Falls
+  updated_at: 2009-07-02 23:16:01 Z
+  plain_text: ""
+  scribd_doc_id: 17049667
+  source_url: http://collinpeterson.house.gov/PDF/Minnesota%20River,%20Granite%20Falls.pdf
+  id: 560
+  access_key: key-w3cw4dog46ru25hq746
+  legislator_id: 4
+  conversion_failed: true
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: Minnesota Valley Regional Rail Authority Rail Rehabilitation
+  updated_at: 2009-07-02 23:10:49 Z
+  plain_text: !binary |
+    DA==
+
+  scribd_doc_id: 17049669
+  source_url: http://collinpeterson.house.gov/PDF/MNVRR%20Rehab.pdf
+  id: 561
+  access_key: key-1zfq9umt65j7qffbdgst
+  legislator_id: 4
+  conversion_failed: false
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: National Center of Emphasis in Dairy Veterinary Education
+  updated_at: 2009-07-02 23:10:51 Z
+  plain_text: !binary |
+    DAw=
+
+  scribd_doc_id: 17049671
+  source_url: http://collinpeterson.house.gov/PDF/Dairy%20request%20letter.pdf
+  id: 562
+  access_key: key-2fnc1bnexdfr5vjmgyxe
+  legislator_id: 4
+  conversion_failed: false
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: Pope and Douglas County Solid Waste Management
+  updated_at: 2009-07-02 23:10:53 Z
+  plain_text: !binary |
+    DA==
+
+  scribd_doc_id: 17049673
+  source_url: http://collinpeterson.house.gov/PDF/Pope%20Douglas%20Solid%20Waste%20Management.pdf
+  id: 563
+  access_key: key-25s6xh3n4w97f7trf4hj
+  legislator_id: 4
+  conversion_failed: false
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: Red Lake Band of Chippewa Indian Multi-Purpose Facility in Ponemah
+  updated_at: 2009-07-02 23:10:55 Z
+  plain_text: !binary |
+    DAw=
+
+  scribd_doc_id: 17049678
+  source_url: http://collinpeterson.house.gov/PDF/Red%20Lake%20Multi-Purpose%20Facility.pdf
+  id: 564
+  access_key: key-82hgwsouysi1wo5yl1z
+  legislator_id: 4
+  conversion_failed: false
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: Red River of the North Flood Risk Management, Breckenridge, MN
+  updated_at: 2009-07-02 23:16:01 Z
+  plain_text: ""
+  scribd_doc_id: 17049681
+  source_url: http://collinpeterson.house.gov/PDF/Red%20River%20of%20the%20North,%20Breckenridge.pdf
+  id: 565
+  access_key: key-14nwfoytmluv4aw77mrx
+  legislator_id: 4
+  conversion_failed: true
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: Roseau River Flood Risk Management, Roseau, MN
+  updated_at: 2009-07-02 23:10:56 Z
+  plain_text: !binary |
+    DA==
+
+  scribd_doc_id: 17049686
+  source_url: http://collinpeterson.house.gov/PDF/Roseau%20River.pdf
+  id: 566
+  access_key: key-glgl1wrx0eaw75dpvxg
+  legislator_id: 4
+  conversion_failed: false
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: Soil Management Research, Morris, MN
+  updated_at: 2009-07-02 23:10:58 Z
+  plain_text: "OFFICERS AND DIRECTORS PRESIDENT Jere Ettesvold 40048 180th St Cyrus, MN 56323 VICE PRESIDENT Jim Wink 36230 210th St Cyrus, MN 56323 TREASURER Dean Meichsner Farm Credit Services Morris, MN 56267 SECRETARY Dan Perkins 10677 Easy Street Lowry, MN 56349 EXECUTIVE COMMITTEE MEMBER AT LARGE Jerry Wright WCROC 46352 St Hwy 329 Morris, MN 56267 DIRECTORS Alan Brutlag 27418 280 Street Wendell, MN 56590 Gene Fynboh 13287 Tanglewood Road NE Brandon, MN 56315 Ed Hegland Route 3 Box 64 Appleton, MN 56208 John Mahoney 47359 180th St Morris, MN 56267 Carolyn Peterson 1170 70th St NW Hancock, MN 56244 Clinton Schuerman 945 60th St SW Danvers, MN 56231 Jeff Swenson 11810 County Rd 5 Kensington, MN 56343\n\n\
+    SOIL AND WATER CONSERVATION RESEARCH ASSOCIATION, INC.\n\
+    Morris, Minnesota 56267\n\n\
+    BARNES - AASTAD\n\n\
+    Research Initiatives in Support of USDA-ARS The North Central Soil Conservation Research Lab., Morris, MN (NCSCRL) Statement of The Barnes-Aastad Soil & Water Conservation Research Association\n\n\
+    The research program at the NCSCRL experienced a flat budget and a drastic loss of scientific expertise during the last 10 years. The need is urgent to re-invigorate this stand-alone research unit and re-build a strong and integrated crops/soils research program at the Lab. The scientific and applied research carried out by this Lab serves and benefits a wide range of stakeholders and customers, not only in the immediate rural communities, but throughout the Midwest and the rest of the nation. The diminishing budget and loss of scientific expertise will force the research lab to be less focused on field and on-farm research with immediate and direct economic, environmental and developmental benefits to farmers, producers and the rural communities. Therefore, and in support of the Lab\xE2\x80\x99s mission, the Barnes-Aastad Association requests permanent funding in 2010 to fill four research positions (research agricultural economist, research hydrologist, climate change scientist and cropping systems ecologist). A stakeholders\xE2\x80\x99 meeting in 2008 identified these positions to help improve the economic return to agricultural producers and enhance sustainability of agricultural enterprises in the upper Midwest. Also, these positions will help reinvigorate an interdisciplinary research team after the loss of four research oppositions during the last seven years. The agricultural economist is needed to provide farmers and the local communities with badly needed research-based answers and solutions to production problems leading to the degradation and depreciation of natural resources that support the development of agriculture and rural America. The research hydrologist will provide farmers and producers with a better understanding of the quantity, quality and dynamics of water resources in relation to soil and landscape characteristics and management practices, especially in biomass production for bioenergy, and will help farmers achieve the double objective of maximum sustainable yields and maximum long-term profit of their operations. The climate change research scientist will help consolidate the unique position of the Lab in Morris to collect, evaluate and quantify data on carbon storage and ecosystem effects across a unique range of soil types, climate, and farm management systems. Finally, the cropping systems ecologist is needed to apply ecological scientific principles to the design and management of sustainable agro-ecosystems in a holistic approach, linking ecology, socioeconomics, and culture to help sustain agricultural production and environmental health.\n\n\
+    Barnes-Aastad Association President\n\n\
+    RESEARCH \xE2\x80\x93 THE KEY TO ADVANCEMENT IN AGRICULTURE\n\n\
+    \f"
+  scribd_doc_id: 17049690
+  source_url: http://collinpeterson.house.gov/PDF/Barnes-Aastad%20request%20letter.pdf
+  id: 567
+  access_key: key-fmzjht5l2wasjfheaw0
+  legislator_id: 4
+  conversion_failed: false
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: Tire to Track Transformer System
+  updated_at: 2009-07-02 23:16:01 Z
+  plain_text: ""
+  scribd_doc_id: 17049693
+  source_url: http://collinpeterson.house.gov/PDF/Mattracks.pdf
+  id: 568
+  access_key: key-2heca5lqq5f4n7wxnsp6
+  legislator_id: 4
+  conversion_failed: true
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: Ultra Light Utility Vehicles (ULUVs) for the National Guard
+  updated_at: 2009-07-02 23:11:00 Z
+  plain_text: "19 March, 2009 Congressman Collin Peterson 2211 Rayburn HOB Washington, DC 20515 Reference: FY10 Project Request Titled \xE2\x80\x9CPolaris Defense Ultra Light Utility Vehicles (ULUVs) For The National Guard\xE2\x80\x9D Congressman Peterson, Polaris respectfully submitted an FY10 Project request for the purchase of Ultra Light Utility Vehicles (ULUVs) For The National Guard. In December of 2008, the National Guard added Ultra Light Utility Vehicles to their FY10 \xE2\x80\x9CTop 25\xE2\x80\x9D Equipment Modernization Shortfall List. Signed by LTG Clyde Vaughn, Chief of the Army National Guard, this addition to the Top 25 list confirms the critical need for lighter, smaller, more cost effective vehicles to perform logistics and support functions, as well as homeland security functions, both at home and in the Global War on Terrorism. This request provides funding for Commercial Off The Shelf (COTS) All Terrain Ultra Light Utility Vehicles (ULUV) - which can and do meet this critical need today. This request Provides Value For The Taxpayer because: \xEF\x82\xB7 ULUVs Are Affordable And Cost Effective\xE2\x80\x93 at less than $20k unit cost\xE2\x80\x93 they are a fraction of the cost of one HMMWV. These vehicles can do a number of the missions currently being accomplished using the HMMWV, cheaper, and in many cases better \xE2\x80\x93 freeing them up for combat critical missions. Dual Use Nature Of ULUVs Well Suited For Needs Of The National Guard - As the Guard is called upon to go to war, as well as called upon at home, the DUAL USE nature of these vehicles make the need all the greater. 14 States have expressed a need for these vehicles, including South Dakota. Many TAGs have written letters to LTG Clyde Vaughn in support of the purchase of ULUVs. ULUVs Provide Mission Flexibility - ULUVs are highly capable, highly versatile vehicles that will continue to be needed to support Defense Department, State and Homeland Security operations and have been used extensively by all the Services in both CONUS and OCONUS operations. With the ability to operate in rugged off road conditions, at high altitudes without modification, these vehicles have truly gone wherever our forces wanted to go. They have been used in the homeland mission for drug interdiction, perimeter security, range control, flight-line support, MPs, base ops, public works and many other missions. ULUVs Have A Lighter Environmental Footprint \xE2\x80\x93 Given ULUVs are significantly smaller and lighter than Humvees, SUVs and Trucks, they have a significantly lighter environmental footprint. This is important on test ranges, training sites and many other areas where the National Guard operates.\n\n\
+    \xEF\x82\xB7\n\n\
+    \xEF\x82\xB7\n\n\
+    \xEF\x82\xB7\n\n\
+    This project is a good example of why the earmark process can be effectively utilized to field vehicles that are needed and supported by the National Guard , but given they don\xE2\x80\x99t have their own procurement budgets, some times takes many years to accomplish. Funding this project will accomplish this sooner, and help provide fuel to maintain Polaris as a world leader in off-road vehicles, both for the military and commercial markets. Thank you for your support,\n\n\
+    Mark McCormick Managing Director Polaris Defense\n\n\
+    \f"
+  scribd_doc_id: 17049698
+  source_url: http://collinpeterson.house.gov/PDF/Polaris%20Defense.pdf
+  id: 569
+  access_key: key-2muc4b5p05o4pdzg0rq4
+  legislator_id: 4
+  conversion_failed: false
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: White Earth Reservation Wild Rice Processing Facility
+  updated_at: 2009-07-02 23:11:02 Z
+  plain_text: !binary |
+    DA==
+
+  scribd_doc_id: 17049701
+  source_url: http://collinpeterson.house.gov/PDF/White%20Earth%20Wild%20Rice.pdf
+  id: 570
+  access_key: key-1lqsxi7jhipu18cgv21j
+  legislator_id: 4
+  conversion_failed: false
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: Wild Rice Breeding & Germplasm Improvement
+  updated_at: 2009-07-02 23:11:03 Z
+  plain_text: !binary |
+    DA==
+
+  scribd_doc_id: 17049706
+  source_url: http://collinpeterson.house.gov/PDF/Wild%20Rice%20request%20letter.pdf
+  id: 571
+  access_key: key-1o4mqhaybzvm6yw0dhsk
+  legislator_id: 4
+  conversion_failed: false
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: Wild Rice River Feasibility Study
+  updated_at: 2009-07-02 23:11:05 Z
+  plain_text: !binary |
+    DA==
+
+  scribd_doc_id: 17049710
+  source_url: http://collinpeterson.house.gov/PDF/Wild%20Rice%20River.pdf
+  id: 572
+  access_key: key-2e9adh4lp9nko0w5kes8
+  legislator_id: 4
+  conversion_failed: false
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: Willmar Wastewater Project Authorization
+  updated_at: 2009-07-02 23:11:07 Z
+  plain_text: !binary |
+    DAwM
+
+  scribd_doc_id: 17049712
+  source_url: http://collinpeterson.house.gov/PDF/Willmar%20Wastewater.pdf
+  id: 573
+  access_key: key-18p16jtb4xtndhcjotgc
+  legislator_id: 4
+  conversion_failed: false
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: Willmar Municipal Utility, MN Corncob Co-Combustion Plant Modifications
+  updated_at: 2009-07-02 23:11:09 Z
+  plain_text: !binary |
+    DAw=
+
+  scribd_doc_id: 17049715
+  source_url: http://collinpeterson.house.gov/PDF/Willmar%20Corn.pdf
+  id: 574
+  access_key: key-20sr4ro4nxdcnd9ga8ge
+  legislator_id: 4
+  conversion_failed: false
+- created_at: 2009-07-02 23:03:40 Z
+  source_file: 
+  title: Adaptive Robotics Technology for Space, Air and Missiles [ART-SAM]
+  updated_at: 2009-07-02 23:07:53 Z
+  plain_text: "June 24, 2009\n\n\
+    Chairman David Obey House Appropriations Committee H-218, the Capitol Washington, DC 20515\n\n\
+    Ranking Member Jerry Lewis House Appropriations Committee 1016 Longworth House Office Building Washington, DC 20515\n\n\
+    Dear Chairman Obey & Ranking Member Lewis: I am requesting $5,400,000 for Adaptive Robotics Technology for Space, Air and Missiles [ART-SAM] in fiscal year 2010. The entity to receive funding for this project is Calhoun Community College, located at 6250 US Highway 31 North, Tanner, AL 35671. The funding would be used for a joint venture with leadership from the U.S. Army Space and Missile Defense Command (SMDC) and Alabama Industrial Development Training (AIDT), and will establish national robotics research and development capability at Calhoun Community College to leverage government, industry, and academia partnerships and their respective investments. Additionally, funds will be used to procure instrumentation, components and test fixtures to provide a hands-on laboratory for experiments and process testing in an unmanned environment. Taxpayer Justification: The ART-SAM project, once operational, will develop robotics technologies, systems and products for a variety of SMDC projects, programs, and core mission needs. It will serve as an economic development catalyst for robotic research and development, training, operations and manufacturing. It will also support workforce development initiatives throughout the state. I certify that neither I nor my spouse has any direct financial interest in this project. Also, I hereby certify that this request will be made publicly available on my Official Website as required by Chairman Obey\xE2\x80\x99s new Committee policy that only posted requests will be considered. Consistent with the Republican Leadership\xE2\x80\x99s policy on earmarks, I hereby certify that to the best of my knowledge this request (1) is not directed to an entity or program that will be named after a sitting Member of Congress; (2) is not intended to be used by an entity to secure funds for other entities unless the use of funding is consistent with the specified purpose of the earmark; and (3) meets or exceeds all statutory requirements for matching funds where applicable. I further certify that should this request be included in the bill, I will place a statement in the Congressional Record describing how the funds will be spent and justifying the use of federal taxpayer funds. Sincerely,\n\n\
+    A\n\
+    Robert B. Aderholt\n\n\
+    \f"
+  scribd_doc_id: 17049718
+  source_url: http://aderholt.house.gov/uploads/Adaptive%20Robotics%20Technology%20for%20Space,%20Air%20and%20Missiles%20%5BART-SAM%5D.pdf
+  id: 575
+  access_key: key-5joxtrzk14f2tt0ipzb
+  legislator_id: 1
+  conversion_failed: false
+- created_at: 2009-07-02 23:03:41 Z
+  source_file: 
+  title: Rapid Missile All-Source Analysis
+  updated_at: 2009-07-02 23:07:55 Z
+  plain_text: "June 24, 2009\n\n\
+    Chairman David Obey House Appropriations Committee H-218, the Capitol Washington, DC 20515\n\n\
+    Ranking Member Jerry Lewis House Appropriations Committee 1016 Longworth House Office Building Washington, DC 20515\n\n\
+    Dear Chairman Obey & Ranking Member Lewis: I am requesting $6,000,000 for Rapid Missile All-Source Analysis in fiscal year 2010. The entity to receive funding for this project is Clean Earth Technologies, located at 13378 Lakefront Drive, Earth City, MO 63045, with an office also at 4910 Corporate Drive, Suite J, Huntsville, Alabama 35805. The funding would be used to continue implementation of a new generation of tools, infrastructure and processes to rapidly process and evaluate all-source missile event data. This capability will allow quick reaction analysis of missile events as they occur and also materially contribute to reducing the backlog of unanalyzed all-source intelligence data. This will significantly enhance timely policy and war fighter support. The initiative will specifically address the critical need to accurately analyze high-priority threat missile systems and to avoid battle field surprise. Taxpayer Justification: This capability permits efficient and timely analysis of all source data from missile events around the world. Clean Earth would be one of a team of companies engaged in an effort to significantly reduce the time required by intelligence analysis to evaluate missile events. The result will better war fighter support, and more efficient application of taxpayer dollars (in terms of personnel assignment and use of equipement). I certify that neither I nor my spouse has any direct financial interest in this project. Also, I hereby certify that this request will be made publicly available on my Official Website as required by Chairman Obey\xE2\x80\x99s new Committee policy that only posted requests will be considered. Consistent with the Republican Leadership\xE2\x80\x99s policy on earmarks, I hereby certify that to the best of my knowledge this request (1) is not directed to an entity or program that will be named after a sitting Member of Congress; (2) is not intended to be used by an entity to secure funds for other entities unless the use of funding is consistent with the specified purpose of the earmark; and (3) meets or exceeds all statutory requirements for matching funds where applicable. I further certify that should this request be included in the bill, I will place a statement in the Congressional Record describing how the funds will be spent and justifying the use of federal taxpayer funds. Sincerely,\n\n\
+    A\n\
+    Robert B. Aderholt\n\n\
+    \f"
+  scribd_doc_id: 17049721
+  source_url: http://aderholt.house.gov/uploads/Rapid%20Missile%20All-Source%20Analysis.pdf
+  id: 576
+  access_key: key-224ol9yq8wwr58tgnxki
+  legislator_id: 1
+  conversion_failed: false
+- created_at: 2009-07-02 23:03:41 Z
+  source_file: 
+  title: Small Agile Tactical Spacecraft (SATS)
+  updated_at: 2009-07-02 23:07:56 Z
+  plain_text: "June 24, 2009\n\n\
+    Chairman David Obey House Appropriations Committee H-218, the Capitol Washington, DC 20515\n\n\
+    Ranking Member Jerry Lewis House Appropriations Committee 1016 Longworth House Office Building Washington, DC 20515\n\n\
+    Dear Chairman Obey & Ranking Member Lewis: I am requesting $2,000,000 for Small Agile Tactical Spacecraft (SATS) in fiscal year 2010. The entity to receive funding for this project is Andrews Space, Inc., located at 555 Sparkman Drive NW, Suite 600-C, Huntsville, AL, 35816. The funding would be used to develop and demonstrate key nanospacecraft technologies to enable a constellation of small agile tactical spacecraft that provide real time communications and intelligence, surveillance and reconnaissance (ISR) capabilities to the US Army, as well as all other branches of the military and Homeland Security, all on a global scale. Taxpayer Justification: The SATS program will develop and demonstrate critical nanospacecraft technologies that will enable a cost-effective spacecraft constellation to provide time critical ISR and communications capabilities to our US troops intheatre. This will improve communication and surveillance capabilities in combat situations which is a top Military priority and will in turn save lives and help maximize their war fighting effectiveness. Commanders will receive far more frequent images, at a significantly economical cost. I certify that neither I nor my spouse has any direct financial interest in this project. Also, I hereby certify that this request will be made publicly available on my Official Website as required by Chairman Obey\xE2\x80\x99s new Committee policy that only posted requests will be considered. Consistent with the Republican Leadership\xE2\x80\x99s policy on earmarks, I hereby certify that to the best of my knowledge this request (1) is not directed to an entity or program that will be named after a sitting Member of Congress; (2) is not intended to be used by an entity to secure funds for other entities unless the use of funding is consistent with the specified purpose of the earmark; and (3) meets or exceeds all statutory requirements for matching funds where applicable. I further certify that should this request be included in the bill, I will place a statement in the Congressional Record describing how the funds will be spent and justifying the use of federal taxpayer funds. Sincerely,\n\n\
+    A\n\
+    Robert B. Aderholt\n\n\
+    \f"
+  scribd_doc_id: 17049723
+  source_url: http://aderholt.house.gov/uploads/Small%20Agile%20Tactical%20Spacecraft%20(SATS).pdf
+  id: 577
+  access_key: key-1xauxa3pi0es8dpcoat1
+  legislator_id: 1
   conversion_failed: false
