@@ -53,33 +53,6 @@ namespace :data do
         nil
       end
     end
-
-    # This was used as a one-off task.
-    # It should still work, but you probably won't need it.
-    # It may be the most useful as a template for using the Scribd API.
-    desc "Update access keys in SourceDoc from Scribd."
-    task :update_access_keys => :environment do
-      puts "Using Scribd API to fetch SourceDoc access keys."
-      count = 0
-      all_source_docs = SourceDoc.all
-      all_source_docs.each do |source_doc|
-        if source_doc.access_key
-          puts "  Skipping SourceDoc id #{source_doc.id} because it already has an access key stored."
-          next
-        end
-
-        doc_id = source_doc.scribd_doc_id
-        scribd_doc = Scribd::Document.find(doc_id)
-        if scribd_doc
-          source_doc.access_key = scribd_doc.access_key
-          source_doc.save!
-          count += 1
-          puts "  Saved access key for SourceDoc id #{source_doc.id}."
-          sleep(1)
-        end
-      end
-      puts "Updated #{count} of #{all_source_docs.length} SourceDoc access keys."
-    end
   
     desc "Update plain text in SourceDoc from Scribd."
     task :update_plain_text => :environment do
@@ -112,7 +85,7 @@ namespace :data do
             puts "  Scribd reports this status: #{status}."
           end
         end
-        sleep(1)
+        sleep 1
       end
       puts "Updated #{count} of #{all_source_docs.length} SourceDoc plain_text fields."
     end

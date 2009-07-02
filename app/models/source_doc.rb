@@ -6,13 +6,13 @@ class SourceDoc < ActiveRecord::Base
   
   def plain_text=(raw)
     self.plain_text_length = (raw || "").length
-    super(raw)
+    super raw
   end
   
   def self.get_random
-    min = self.minimum(:letters_count)
-    letters = self.find(:all, :conditions =>
-      ["letters_count = ? and conversion_failed = ?", min, false])
+    min = self.minimum :letters_count
+    letters = self.find :all, :conditions =>
+      ["letters_count = ? and conversion_failed = ?", min, false]
     letters[rand(letters.length)]
   end
   
