@@ -6,6 +6,7 @@ namespace :data do
     
     LEGISLATOR_URLS = "#{RAILS_ROOT}/data/earmark_letter_sources.yml"
     LETTER_URLS_DIR = "#{RAILS_ROOT}/data/generated"
+    DOWNLOAD_DIR    = "#{RAILS_ROOT}/data/docs"
     
     # Note: the "fetch" and "load_into_db" tasks are highly coupled!
     
@@ -72,6 +73,30 @@ namespace :data do
         end
       end
       puts "Done loading data into #{SourceDoc.table_name}."
+    end
+    
+    desc "Download source PDF files into a directory."
+    task :download => :environment do
+      filenames = Dir.glob(File.join(LETTER_URLS_DIR, "*.yml"))
+      filenames.each do |filename|
+        data = YAML::load_file(filename)
+        data.each do |legislator_name, letters|
+          data_dir = File.join DOWNLOAD_DIR, legislator_name
+          if File.exists?(data_dir)
+            puts "  Already downloaded letters for #{legislator_name}, skipping."
+          else
+            puts "  Downloading letters for #{legislator_name}"
+            FileUtils.mkdir_p data_dir
+            Dir.chdir data_dir
+            
+            letters.each do |letter|
+              system "wget #{letter['href']}"
+              sleep 1
+            end
+            
+          end
+        end
+      end
     end
 
   end

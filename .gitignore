@@ -5,3 +5,4 @@ db/*.sql
 db/*.sqlite3
 log/*
 tmp/*
+data/docs
