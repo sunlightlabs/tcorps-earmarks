@@ -97,6 +97,7 @@ namespace :data do
           end
         end
         sleep 1
+        puts "  Sleeping for 1 second"
       end
       puts "Updated #{count} of #{all_source_docs.length} SourceDoc plain_text fields."
     end
