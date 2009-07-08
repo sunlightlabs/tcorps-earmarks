@@ -26,6 +26,7 @@ class RootController < ApplicationController
       setup_and_render_index
     elsif @letter.save
       report_completion
+      flash[:notice] = "Thank you for contributing!  We've logged your points in TransparencyCorps. Here's another document so that you can earn more!"
     else
       setup_and_render_index
     end

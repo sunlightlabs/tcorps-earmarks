@@ -65,7 +65,6 @@ div.flash_error {
 div.flash_notice {
   color: #00A000;
   padding: 5px;
-  border: 1px solid black;
   margin-bottom: 10px;
 }
 
