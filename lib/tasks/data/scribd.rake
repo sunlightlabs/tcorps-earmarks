@@ -22,8 +22,8 @@ namespace :data do
             source_doc.access_key    = scribd_doc.access_key
             source_doc.save!
           end
-          puts "  Sleeping 5 seconds"
-          sleep 5
+          puts "  Sleeping 2 seconds"
+          sleep 2
         end
       end
 
