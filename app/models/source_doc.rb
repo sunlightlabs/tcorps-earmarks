@@ -6,16 +6,18 @@ class SourceDoc < ActiveRecord::Base
   
   named_scope :converted, :conditions => {:conversion_failed => false}
   
+  named_scope :done, :conditions => {:done => true}
+  named_scope :not_done, :conditions => {:done => false}
+  
   def plain_text=(raw)
     self.plain_text_length = (raw || "").length
     super raw
   end
   
-  # Horribly un-performant
+  # pulls the least checked 30, finds the ones that tie for the absolutely least checked,
+  # and chooses a random one of those
   def self.get_random
-    # if this gets un-performant, it should be refactored to be one
-    # SourceDoc query that joins against Legislator on done=false
-    source_docs = Legislator.not_done.all.map {|legislator| legislator.source_docs.converted.all}.flatten
+    source_docs = SourceDoc.not_done.converted.all :order => 'letters_count ASC', :limit => 30
     
     min = source_docs.min {|x, y| x.letters_count <=> y.letters_count}.letters_count
     

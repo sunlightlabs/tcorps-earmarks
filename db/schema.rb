@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090702145212) do
+ActiveRecord::Schema.define(:version => 20090708025433) do
 
   create_table "entities", :force => true do |t|
     t.integer  "letter_id"
@@ -25,10 +25,7 @@ ActiveRecord::Schema.define(:version => 20090702145212) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.boolean  "done",       :default => false
   end
-
-  add_index "legislators", ["done"], :name => "index_legislators_on_done"
 
   create_table "letters", :force => true do |t|
     t.decimal  "amount"
@@ -61,9 +58,11 @@ ActiveRecord::Schema.define(:version => 20090702145212) do
     t.datetime "updated_at"
     t.boolean  "conversion_failed", :default => false
     t.integer  "plain_text_length", :default => 0
+    t.boolean  "done",              :default => false
   end
 
   add_index "source_docs", ["conversion_failed"], :name => "index_source_docs_on_conversion_failed"
+  add_index "source_docs", ["done"], :name => "index_source_docs_on_done"
   add_index "source_docs", ["legislator_id"], :name => "index_source_docs_on_legislator_id"
   add_index "source_docs", ["letters_count"], :name => "index_source_docs_on_letters_count"
   add_index "source_docs", ["plain_text_length"], :name => "index_source_docs_on_plain_text_length"
