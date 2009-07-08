@@ -1,12 +1,12 @@
 namespace :data do  
   namespace :docs do
   
-    DOWNLOAD_DIR    = "#{RAILS_ROOT}/data/docs"
+    DOCS_DIR = "#{RAILS_ROOT}/data/docs"
   
     desc "Create new SourceDoc entries for all the docs in the data/docs folder"
     task :load_into_db => :environment do
       puts "Loading each file in data/docs into the database."
-      Dir.glob(File.join DOWNLOAD_DIR, '*').each do |path|
+      Dir.glob(File.join DOCS_DIR, '*').each do |path|
         source_file = File.basename path
         if SourceDoc.find_by_source_file(source_file)
           puts "  File #{source_file} is already in database, skipping."
