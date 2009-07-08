@@ -20,5 +20,9 @@ module ApplicationHelper
       naive
     end
   end
+  
+  def legislators_for_select
+    Legislator.alphabetical.all.map {|legislator| [legislator.name, legislator.id]}
+  end
 
 end

@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090708025433) do
+ActiveRecord::Schema.define(:version => 20090708032831) do
 
   create_table "entities", :force => true do |t|
     t.integer  "letter_id"
@@ -38,10 +38,12 @@ ActiveRecord::Schema.define(:version => 20090708025433) do
     t.string   "task_key"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "legislator_id"
   end
 
   add_index "letters", ["amount"], :name => "index_letters_on_amount"
   add_index "letters", ["fiscal_year"], :name => "index_letters_on_fiscal_year"
+  add_index "letters", ["legislator_id"], :name => "index_letters_on_legislator_id"
   add_index "letters", ["source_doc_id"], :name => "index_letters_on_source_doc_id"
   add_index "letters", ["user_id"], :name => "index_letters_on_user_id"
 

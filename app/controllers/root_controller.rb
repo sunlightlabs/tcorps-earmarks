@@ -68,10 +68,7 @@ class RootController < ApplicationController
   end
   
   def report_completion
-    TcorpsUtil.signal_task_completion(@letter.task_key)
-    # TODO:
-    #   What to do if we get a failure?
-    #   Try again?
+    TcorpsUtil.signal_task_completion @letter.task_key
   end
   
   protected

@@ -2,6 +2,7 @@
 class Letter < ActiveRecord::Base
   
   has_many :entities
+  belongs_to :legislator
   belongs_to :user
   belongs_to :source_doc, :counter_cache => true
 
@@ -12,6 +13,7 @@ class Letter < ActiveRecord::Base
   
   before_validation :validate_amount
 
+  validates_presence_of :legislator_id
   validates_presence_of :project_title
   validates_presence_of :fiscal_year
   validates_presence_of :funding_purpose
