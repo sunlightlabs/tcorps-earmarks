@@ -28,6 +28,7 @@ class DataBackupHelper
     updated_at
     access_key
     plain_text
+    plain_text_length
     created_at
     updated_at
     conversion_failed
