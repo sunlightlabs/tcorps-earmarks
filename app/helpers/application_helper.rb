@@ -22,7 +22,7 @@ module ApplicationHelper
   end
   
   def legislators_for_select
-    Legislator.alphabetical.all.map {|legislator| [legislator.name, legislator.id]}
+    Legislator.alphabetical.all.map {|legislator| ["Rep. #{legislator.name}", legislator.id]}
   end
 
 end
