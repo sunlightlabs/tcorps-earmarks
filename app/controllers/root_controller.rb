@@ -26,7 +26,6 @@ class RootController < ApplicationController
       setup_and_render_index
     elsif @letter.save
       report_completion
-      redirect_to :action => :success
     else
       setup_and_render_index
     end
@@ -68,7 +67,13 @@ class RootController < ApplicationController
   end
   
   def report_completion
-    TcorpsUtil.signal_task_completion @letter.task_key
+    response = TcorpsUtil.signal_task_completion @letter.task_key, APP_CONFIG['automatic_new_task']
+    
+    if APP_CONFIG['automatic_new_task'] and response and response.body and response.body.strip.any?
+      redirect_to response.body
+    else
+      redirect_to :action => :success
+    end
   end
   
   protected
@@ -83,6 +88,7 @@ class RootController < ApplicationController
       :user_id,
       :source_doc_id,
       :task_key,
+      :legislator_id,
       # And finally, because of:
       #   accepts_nested_attributes_for :entities
       :entities_attributes

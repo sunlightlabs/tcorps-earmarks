@@ -1,15 +1,19 @@
 development:
   tcorps_url: http://localhost:3000
   form_prepopulation: true
+  automatic_new_task: true
 
 test:
   tcorps_url: http://localhost:3000
   form_prepopulation: true
+  automatic_new_task: false
 
 staging:
   tcorps_url: http://tcorps.sunlightlabs.com
   form_prepopulation: false
+  automatic_new_task: true
   
 production:
   tcorps_url: http://transparencycorps.org
   form_prepopulation: false
+  automatic_new_task: true
