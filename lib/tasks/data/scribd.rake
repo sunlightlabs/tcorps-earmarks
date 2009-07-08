@@ -2,6 +2,8 @@ namespace :data do
   
   namespace :scribd do
 
+    DOCS_DIR = "#{RAILS_ROOT}/data/docs"
+
     desc "Tell Scribd to grab PDFs as specified by SourceDoc database."
     task :populate => :environment do
       puts "Using Scribd API to fetch SourceDocs urls"
@@ -29,19 +31,28 @@ namespace :data do
     end
     
     def create_scribd_doc(source_doc)
-      title           = source_doc.title
-      url             = source_doc.source_url
-      legislator_name = source_doc.legislator.name
-      puts "  Storing #{url} to Scribd"
+      puts "  Storing #{source_doc.title} to Scribd"
       scribd_doc = Scribd::Document.new
-      scribd_doc.file = url
-      scribd_doc.title = "Earmark Request : #{legislator_name} : #{title}"
-      scribd_doc.description = HeredocUtil.prettify <<-END
-        This is an earmark request letter from #{legislator_name}.
       
-        The original document can be found here: 
-        #{url}
-      END
+      # documents may not have a legislator known going in
+      if source_doc.legislator
+        scribd_doc.title = "Earmark Request : #{legislator_name} : #{source_doc.title}"
+        scribd_doc.description = "This is an earmark request letter from #{legislator_name}."
+      else
+        scribd_doc.title = "Earmark Request"
+        scribd_doc.description = "This is an earmark request letter from a member of Congress."
+      end
+      
+      # individual documents may not have a reference URL online
+      if source_doc.source_url
+        scribd_doc.description << "\n\nThe original document can be found here:\n#{source_doc.source_url}"
+        scribd_doc.file = url
+      elsif source_doc.source_file
+        scribd_doc.file = File.join(DOCS_DIR, source_doc.source_file)
+      else
+        raise Exception.new("No source file or URL for SourceDoc with ID #{source_doc.id}!")
+      end
+      
       scribd_doc.license = "pd" # Public Domain
       scribd_doc.tags = "earmark request,sunlight foundation"
       
