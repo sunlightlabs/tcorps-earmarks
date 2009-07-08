@@ -31,7 +31,7 @@ namespace :data do
       data.each do |data_row|
         record = model.new
         fields.each do |field|
-          record[field] = data_row[field]
+          record[field] = data_row[field] if data_row[field]
         end
         record.save
       end
