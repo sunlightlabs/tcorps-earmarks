@@ -38,7 +38,7 @@ class RootController < ApplicationController
   protected
   
   def attempt_pattern_match
-    if APP_CONFIG['form_prepopulation']
+    if APP_CONFIG['form_prepopulation'] and @source_doc.plain_text
       match = DocParser.best_match(@source_doc.plain_text)
       if match
         @prepopulated = true
