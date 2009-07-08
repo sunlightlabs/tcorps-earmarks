@@ -7,7 +7,6 @@ class DataBackupHelper
     name
     created_at
     updated_at
-    done
   )
   
   # Intentionally not included:
@@ -24,6 +23,7 @@ class DataBackupHelper
     source_file
     scribd_doc_id
     legislator_id
+    done
     created_at
     updated_at
     access_key
