@@ -10,12 +10,26 @@ Setup:
   rake db:migrate
   rake data:restore:all
   
-Processing a legislator's documents:
+
+Processing a batch of local documents from assorted legislators:
+
+  - Add all documents to the data/docs folder. Files in this folder are ignored by git.
+  - Run "rake data:docs:load_into_db". This will create a SourceDoc for any files whose filenames do not appear in the SourceDoc table as a SourceDoc's source_file.  Do not delete the documents from data/docs yet.
+  - Run "rake data:scribd:populate" to send each SourceDoc which has not sent its document to Scribd, to Scribd.  You can now delete the documents in data/docs.
+  - Skip to the section labeled "Remaining instructions" below and continue from there.
+
+
+Processing a given legislator's online documents:
 
   - Figure out the legislator's CSS rule, and add it to data/earmark_letter_sources.yml, along with the legislator's name and page URL.
   - Run "rake data:directory:fetch", this will create a YAML file inside data/generated, with URLs to the discovered PDFs. Verify that these URLs are correct, and are URL encoded correctly.
   - Run "rake data:directory:load_into_db", this loads the YAML file into the DB.  It is idempotent, and will not create duplicate legislators (indexed by name) or source docs (indexed by URL).
   - Run "rake data:scribd:populate", this uploads each document to scribd, and saves the scribd information to the SourceDoc.
+  - Continue with the section labeled "Remaining instructions" below.
+
+
+Remaining instructions:
+
   - Run "rake data:scribd:update_plain_text" to use the Scribd API to get the plain text for each document. You may want to wait a little bit so that Scribd has time to finish processing the documents you uploaded in step 4. If a document hasn't yet been processed by Scribd, the rake task will let you know its status, and you can try running it again later.
   - Run "rake data:backup:all" to backup the Legislator and SourceDoc tables to YAML.  These can be committed to the repository. This may be useful so that your staging or production machines do not have to go through all these steps, and can use the same Scribd documents you've already created.
     * If you add more columns to either model, that you want to have backed up, edit lib/data_backup_helper.rb and update the arrays of stored fields.
