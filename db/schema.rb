@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090708032831) do
+ActiveRecord::Schema.define(:version => 20090804173358) do
 
   create_table "entities", :force => true do |t|
     t.integer  "letter_id"
@@ -25,7 +25,10 @@ ActiveRecord::Schema.define(:version => 20090708032831) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "bioguide_id"
   end
+
+  add_index "legislators", ["bioguide_id"], :name => "index_legislators_on_bioguide_id"
 
   create_table "letters", :force => true do |t|
     t.decimal  "amount"
