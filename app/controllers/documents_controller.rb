@@ -57,7 +57,7 @@ class DocumentsController < ApplicationController
   protected
   
   def clean_letter_params(params)
-    ControllerUtil.clean_params(params, [
+    clean_params(params, [
       :amount,
       :project_title,
       :fiscal_year,
