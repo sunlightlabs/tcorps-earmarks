@@ -17,7 +17,6 @@ class Letter < ActiveRecord::Base
   validates_presence_of :project_title
   validates_presence_of :fiscal_year
   validates_presence_of :funding_purpose
-  validates_presence_of :task_key
 
   def amount=(raw)
     value = self.class.strip_dollar_amount(raw)
