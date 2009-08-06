@@ -22,7 +22,7 @@ module ApplicationHelper
   end
   
   def legislators_for_select
-    Legislator.alphabetical.all.map {|legislator| [reordered_name(legislator.name), legislator.id]}.sort {|x, y| x[0] <=> y[0]}
+    Legislator.all.map {|legislator| [reordered_name(legislator.name), legislator.id]}.sort {|x, y| x[0] <=> y[0]}
   end
   
   def reordered_name(name)
