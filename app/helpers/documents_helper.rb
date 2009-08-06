@@ -1,6 +1,7 @@
 module DocumentsHelper
   def as_currency(item)
-    number_to_currency(item) =~ /^([$]?[\d,]*).00$/ ? $1 : naive
+    naive = number_to_currency(item)
+    naive =~ /^([$]?[\d,]*).00$/ ? $1 : naive
   end
   
   def legislators_for_select
