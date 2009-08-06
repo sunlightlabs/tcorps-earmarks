@@ -1,6 +1,6 @@
 .DS_Store
 config/database.yml
-config/api_setup.yml
+config/scribd.yml
 db/*.sql
 db/*.sqlite3
 log/*
