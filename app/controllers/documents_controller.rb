@@ -1,4 +1,4 @@
-class RootController < ApplicationController
+class DocumentsController < ApplicationController
 
   def index
     @source_doc = SourceDoc.get_random

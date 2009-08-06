@@ -1,6 +1,4 @@
 ActionController::Routing::Routes.draw do |map|
-  map.root :controller => "root"
-
-  map.connect ':controller/:action/:id'
-  map.connect ':controller/:action/:id.:format'
+  map.resources :documents
+  map.root :controller => 'documents', :action => 'index'
 end
