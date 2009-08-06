@@ -55,17 +55,18 @@ div.column_2 {
   width: 40%;
 }
 
-div.flash_error {
-  color: #A00000;
+div.flash {
   padding: 5px;
-  border: 1px solid #A00000;
   margin-bottom: 10px;
 }
 
-div.flash_notice {
+div.flash.error {
+  color: #A00000;
+  border: 1px solid #A00000;
+}
+
+div.flash.notice {
   color: #00A000;
-  padding: 5px;
-  margin-bottom: 10px;
 }
 
 div.content {

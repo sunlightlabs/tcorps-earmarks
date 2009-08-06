@@ -1,17 +1,19 @@
 <div class="column_1">
-  <%= render :partial => "tabs" %>
+  <%= render :partial => 'tabs' %>
 </div>
 
 <div class="column_2">
   <div class="content">
     
-    <% if flash[:error] %>
-      <div class="flash_error"><%= flash[:error] %></div>
-    <% elsif flash[:notice] %>
-      <div class="flash_notice"><%= flash[:notice] %></div>
+    <% [:error, :notice].each do |msg| %>
+      <% if flash[msg] %>
+        <div class="flash <%= msg %>">
+          <%= flash[msg] %>
+        </div>
+      <% end %>
     <% end %>
     
-    <%= render :partial => "letter_form", :locals => { :letter => @letter } %>
+    <%= render :partial => 'letter_form', :locals => { :letter => @letter } %>
     
   </div>
 </div>
