@@ -1,5 +1,21 @@
 <div class="column_1">
-  <%= render :partial => 'tabs' %>
+  <div id="tabs">
+    <% if @has_plain_text %>
+      <ul>
+        <li>
+          <a href="#source_doc"><span>Source Doc</span></a>
+        </li>
+        <li>
+          <a href="#plain_text"><span>Plain Text</span></a>
+        </li>
+      </ul>
+    <% end %>
+    
+    <%= render :partial => 'source_doc' %>
+    <% if @has_plain_text %>
+      <%= render :partial => 'plain_text' %>
+    <% end %>
+  </div>
 </div>
 
 <div class="column_2">
