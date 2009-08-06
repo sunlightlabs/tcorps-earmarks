@@ -25,8 +25,12 @@ class RootController < ApplicationController
       end
       setup_and_render_index
     elsif @letter.save
-      report_completion
-      flash[:notice] = "Thank you for contributing!  We've logged your points in TransparencyCorps. Here's another document so that you can earn more!"
+      flash[:notice] = "Thanks for contributing!  We've logged your points in TransparencyCorps. Here's another document so that you can earn more!"
+      if url = TransparencyCorps.complete_task_and_reassign(@letter.task_key)
+        redirect_to url
+      else
+        redirect_to :action => :success
+      end
     else
       setup_and_render_index
     end
@@ -48,16 +52,6 @@ class RootController < ApplicationController
     @username = params["username"]
     @points   = params["points"] || 0
     @has_plain_text = @source_doc.plain_text_length > 10
-  end
-  
-  def report_completion
-    response = TcorpsUtil.signal_task_completion @letter.task_key, APP_CONFIG['automatic_new_task']
-    
-    if APP_CONFIG['automatic_new_task'] and response and response.body and response.body.strip.any?
-      redirect_to response.body
-    else
-      redirect_to :action => :success
-    end
   end
   
   protected

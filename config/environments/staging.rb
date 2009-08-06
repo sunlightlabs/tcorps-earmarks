@@ -29,3 +29,6 @@ config.action_view.cache_template_loading            = true
 
 # show errors
 config.action_controller.consider_all_requests_local = true
+
+
+TCORPS_URL = 'http://tcorps.sunlightlabs.com'
