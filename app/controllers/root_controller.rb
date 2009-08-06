@@ -9,7 +9,7 @@ class RootController < ApplicationController
       :task_key      => params["task_key"]
     )
     @letter.entities << Entity.new
-    attempt_pattern_match
+    
     setup_index_vars
   end
 
@@ -36,23 +36,6 @@ class RootController < ApplicationController
   end
   
   protected
-  
-  def attempt_pattern_match
-    if APP_CONFIG['form_prepopulation'] and @source_doc.plain_text
-      match = DocParser.best_match(@source_doc.plain_text)
-      if match
-        @prepopulated = true
-        @letter.amount                 = match[:amount]
-        @letter.project_title          = match[:project_title]
-        @letter.fiscal_year            = match[:fiscal_year]
-        @letter.funding_purpose        = match[:funding_purpose]
-        @letter.taxpayer_justification = match[:taxpayer_justification]
-        entity = @letter.entities[0]
-        entity.name    = match[:entity_name]
-        entity.address = match[:entity_address]
-      end
-    end
-  end
   
   def setup_and_render_index
     @source_doc = @letter.source_doc
