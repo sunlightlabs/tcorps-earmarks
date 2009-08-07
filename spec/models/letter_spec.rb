@@ -13,7 +13,7 @@ describe Letter do
   end
 
   it "should be valid with default attribute values" do
-    letter = Letter.new(@valid_attributes)
+    letter = Letter.new @valid_attributes
     letter.should be_valid
   end
   
@@ -30,7 +30,7 @@ describe Letter do
   VALID_AMOUNTS.each do |val|
     describe ("with %s as amount" % val.inspect) do
       before(:each) do
-        @letter = Letter.new(@valid_attributes.merge(:amount => val))
+        @letter = Letter.new @valid_attributes.merge(:amount => val)
       end
 
       it "should be a valid record" do
@@ -56,7 +56,7 @@ describe Letter do
   INVALID_AMOUNTS.each do |val|
     describe ("with %s as amount" % val.inspect) do
       before(:each) do
-        @letter = Letter.new(@valid_attributes.merge(:amount => val))
+        @letter = Letter.new @valid_attributes.merge(:amount => val)
       end
     
       it "should not be a valid record" do

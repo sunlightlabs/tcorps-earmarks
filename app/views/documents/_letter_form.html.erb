@@ -27,7 +27,7 @@
 
   <%= f.hidden_field :fiscal_year, :value => '2010' %>
 
-  <%= render :partial => "entity_form", :locals => { :letter_form => f } %>
+  <%= render :partial => "entity_form", :locals => {:letter_form => f} %>
   
   <div class="field">
     <%= f.label :funding_purpose, "Purpose of Funding" %>
