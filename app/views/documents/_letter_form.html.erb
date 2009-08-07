@@ -38,8 +38,8 @@
   <%= f.hidden_field :document_id %>
   <%= f.hidden_field :task_key %>
   
-  <%= hidden_field_tag 'username', @username %>
-  <%= hidden_field_tag 'points', @points %>
+  <%= hidden_field_tag 'username', params[:username] %>
+  <%= hidden_field_tag 'points', params[:points] %>
   
   <div class="field">
     <label>&nbsp;</label>

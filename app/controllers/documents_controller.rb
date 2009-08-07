@@ -4,8 +4,6 @@ class DocumentsController < ApplicationController
     @document = Document.next
     @letter = @document.letters.new :task_key => params[:task_key]
     @letter.entities << Entity.new
-    
-    setup_index_vars
   end
 
   def create
@@ -20,32 +18,23 @@ class DocumentsController < ApplicationController
       end
       setup_and_render_index
     elsif @letter.save
-      flash[:notice] = "Thanks for contributing!  We've logged your points in TransparencyCorps. Here's another document so that you can earn more!"
       if !@letter.task_key.blank? and url = TransparencyCorps.complete_task_and_reassign(@letter.task_key)
+        flash[:notice] = "Thanks for contributing!  We've logged your points in TransparencyCorps. Here's another document so that you can earn more!"
         redirect_to url
       else
-        redirect_to success_path
+        flash[:notice] = "Awesome, thanks for contributing! But believe me, we have plenty more work to do -- so here's another!"
+        redirect_to documents_path
       end
     else
       setup_and_render_index
     end
-  end
-
-  def success
   end
   
   protected
   
   def setup_and_render_index
     @document = @letter.document
-    setup_index_vars
     render :action => :index
-  end
-  
-  # Helper: sets up instance variables for index.html.erb.
-  def setup_index_vars
-    @username = params[:username]
-    @points   = params[:points] || 0
   end
   
 end
