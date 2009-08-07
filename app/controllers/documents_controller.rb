@@ -15,10 +15,7 @@ class DocumentsController < ApplicationController
       render :index
     
     elsif params[:delete_entity]
-      params[:delete_entity].keys.each do |key|
-        entity_id = key.to_i
-        @letter.entities.delete_at(entity_id)
-      end
+      params[:delete_entity].keys.each {|key| @letter.entities.delete_at key.to_i}
       render :index
       
     elsif @letter.save
@@ -29,6 +26,7 @@ class DocumentsController < ApplicationController
         flash[:notice] = "Awesome, thanks for contributing! But believe me, we have plenty more work to do -- so here's another!"
         redirect_to documents_path
       end
+    
     else
       render :index
     end
