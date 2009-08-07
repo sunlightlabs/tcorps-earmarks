@@ -1,11 +1,8 @@
 class DocumentsController < ApplicationController
 
   def index
-    @source_doc = SourceDoc.get_random
-    @letter = Letter.new(
-      :source_doc_id => @source_doc.id,
-      :task_key      => params["task_key"]
-    )
+    @document = Document.next
+    @letter = @document.letters.new :task_key => params[:task_key]
     @letter.entities << Entity.new
     
     setup_index_vars
@@ -13,11 +10,11 @@ class DocumentsController < ApplicationController
 
   def create
     @letter = Letter.new params[:letter]
-    if params["add_new_entity"]
+    if params[:add_new_entity]
       @letter.entities << Entity.new
       setup_and_render_index
-    elsif params["delete_entity"]
-      params["delete_entity"].keys.each do |key|
+    elsif params[:delete_entity]
+      params[:delete_entity].keys.each do |key|
         entity_id = key.to_i
         @letter.entities.delete_at(entity_id)
       end
@@ -40,16 +37,15 @@ class DocumentsController < ApplicationController
   protected
   
   def setup_and_render_index
-    @source_doc = @letter.source_doc
+    @document = @letter.document
     setup_index_vars
     render :action => :index
   end
   
   # Helper: sets up instance variables for index.html.erb.
   def setup_index_vars
-    @username = params["username"]
-    @points   = params["points"] || 0
-    @has_plain_text = @source_doc.plain_text_length > 10
+    @username = params[:username]
+    @points   = params[:points] || 0
   end
   
 end

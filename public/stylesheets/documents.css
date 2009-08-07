@@ -39,11 +39,11 @@ div.column_1 {
   font-size: 12px;
 }
 
-#source_doc {
+#document {
   padding: 5px 0 0 0;
 }
 
-div.source_doc_url {
+div.document_url {
   margin-top: 10px;
   border-top: 1px dotted #808080;
   font-size: 12px;

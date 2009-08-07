@@ -1,9 +1,9 @@
 <div class="column_1">
   <div id="tabs">
-    <% if @has_plain_text %>
+    <% if @document.plain_text.size > 10 %>
       <ul>
         <li>
-          <a href="#source_doc"><span>Source Doc</span></a>
+          <a href="#document"><span>Source Doc</span></a>
         </li>
         <li>
           <a href="#plain_text"><span>Plain Text</span></a>
@@ -11,20 +11,22 @@
       </ul>
     <% end %>
     
-    <div id="source_doc">
+    <div id="document">
       
-      <%= render :partial => "scribd", :locals => {:document => @source_doc} %>
+      <%= render :partial => "scribd", :locals => {:document => @document} %>
       
-      <div class="source_doc_url">
+      <div class="document_url">
         This document is available
-        <%= link_to "from the source", @source_doc.source_url %>
-        or <%= link_to "on Scribd", scribd_url(@source_doc.scribd_doc_id) %>.
+        <% if @document.source_url %>
+          <%= link_to "from the source", @document.source_url %> or 
+        <% end %>
+        <%= link_to "on Scribd", scribd_url(@document.scribd_doc_id) %>.
       </div>
     </div>
 
-    <% if @has_plain_text %>
+    <% if @document.plain_text.size > 10 %>
       <div id="plain_text">
-        <textarea rows="20" readonly><%= @source_doc.plain_text %></textarea>
+        <textarea rows="20" readonly><%= @document.plain_text %></textarea>
       </div>
     <% end %>
   </div>

@@ -4,7 +4,7 @@ class Letter < ActiveRecord::Base
   has_many :entities
   belongs_to :legislator
   belongs_to :user
-  belongs_to :source_doc, :counter_cache => true
+  belongs_to :document, :counter_cache => true
 
   validates_associated :user
 
