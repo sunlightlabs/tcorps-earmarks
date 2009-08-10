@@ -2,17 +2,17 @@ namespace :data do
 
   namespace :restore do
 
-    desc "Restore (destructively) Legislator and SourceDoc databases using YAML backup"
-    task :all => [:legislator, :source_doc]
+    desc "Restore (destructively) Legislator and Document databases using YAML backup"
+    task :all => [:legislator, :document]
 
     desc "Restore (destructively) Legislator database using YAML backup"
     task :legislator => :environment do
       restore_model Legislator
     end
 
-    desc "Restore (destructively) SourceDoc database using YAML backup"
-    task :source_doc => :environment do
-      restore_model SourceDoc
+    desc "Restore (destructively) Document database using YAML backup"
+    task :document => :environment do
+      restore_model Document
     end
   
     def restore_model(model)

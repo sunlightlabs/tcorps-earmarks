@@ -48,7 +48,7 @@ namespace :data do
     desc "Populate database using YAML file(s)."
     task :load_into_db => :environment do
       filenames = Dir.glob(File.join(LETTER_URLS_DIR, "*.yml"))
-      puts "Populating #{SourceDoc.table_name} with Earmark Request Letter info."
+      puts "Populating #{Document.table_name} with Earmark Request Letter info."
       puts "Will read from #{filenames.length} files."
       filenames.each do |filename|
         puts "  Reading file named #{filename}"
@@ -61,18 +61,18 @@ namespace :data do
             legislator = Legislator.create! :name => legislator_name
           end
           
-          puts "    Writing letters to #{SourceDoc.table_name}."
+          puts "    Writing letters to #{Document.table_name}."
           letters.each do |letter|
-            source_doc = SourceDoc.find_or_create_by_source_url letter['href']
-            source_doc.attributes = {
+            document = Document.find_or_create_by_source_url letter['href']
+            document.attributes = {
               :title => make_title(letter['content']),
               :legislator => legislator
             }
-            source_doc.save!
+            document.save!
           end
         end
       end
-      puts "Done loading data into #{SourceDoc.table_name}."
+      puts "Done loading data into #{Document.table_name}."
     end
     
     desc "Download source PDF files into a directory."

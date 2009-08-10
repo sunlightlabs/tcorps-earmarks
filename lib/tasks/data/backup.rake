@@ -2,17 +2,17 @@ namespace :data do
 
   namespace :backup do
     
-    desc "Backup Legislator and SourceDoc databases to YAML."
-    task :all => [:legislator, :source_doc]
+    desc "Backup Legislator and Document databases to YAML."
+    task :all => [:legislator, :document]
   
     desc "Backup Legislator database to YAML."
     task :legislator => :environment do
       backup_model Legislator
     end
 
-    desc "Backup SourceDoc database to YAML."
-    task :source_doc => :environment do
-      backup_model SourceDoc
+    desc "Backup Document database to YAML."
+    task :document => :environment do
+      backup_model Document
     end
   
     def backup_model(model)
