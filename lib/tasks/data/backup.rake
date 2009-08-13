@@ -16,7 +16,7 @@ namespace :data do
     end
   
     def backup_model(model)
-      filename = DataBackupHelper.construct_filename(model.table_name)
+      filename = construct_filename(model.table_name)
       puts "Backing up #{model} data to #{filename}."
       data = load_model_into_memory model
       save_as_yaml filename, data
