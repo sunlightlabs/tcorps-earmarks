@@ -1,8 +1,8 @@
 .DS_Store
-config/database.yml
-config/scribd.yml
-db/*.sql
-db/*.sqlite3
-log/*
-tmp/*
-data
+/config/database.yml
+/config/scribd.yml
+/db/*.sql
+/db/*.sqlite3
+/log/*
+/tmp/*
+/data
