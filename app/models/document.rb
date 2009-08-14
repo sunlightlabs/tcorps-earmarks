@@ -5,6 +5,7 @@ class Document < ActiveRecord::Base
   belongs_to :legislator
   
   named_scope :converted, :conditions => {:conversion_failed => false}
+  named_scope :not_converted, :conditions => {:conversion_failed => true}
   
   named_scope :done, :conditions => {:done => true}
   named_scope :not_done, :conditions => {:done => false}
