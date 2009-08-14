@@ -13,10 +13,7 @@ class Letter < ActiveRecord::Base
   
   before_validation :validate_amount
 
-  validates_presence_of :legislator_id
-  validates_presence_of :project_title
-  validates_presence_of :fiscal_year
-  validates_presence_of :funding_purpose
+  validates_presence_of :legislator_id, :project_title, :fiscal_year, :funding_purpose
 
   def amount=(raw)
     value = self.class.strip_dollar_amount(raw)

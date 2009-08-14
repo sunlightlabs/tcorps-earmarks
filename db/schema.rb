@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090807213505) do
+ActiveRecord::Schema.define(:version => 20090814191051) do
 
   create_table "documents", :force => true do |t|
     t.string   "title"
@@ -31,6 +31,20 @@ ActiveRecord::Schema.define(:version => 20090807213505) do
   add_index "documents", ["legislator_id"], :name => "index_source_docs_on_legislator_id"
   add_index "documents", ["letters_count"], :name => "index_source_docs_on_letters_count"
   add_index "documents", ["scribd_doc_id"], :name => "index_source_docs_on_scribd_doc_id"
+
+  create_table "earmarks", :force => true do |t|
+    t.string  "project_title"
+    t.decimal "amount"
+    t.text    "funding_purpose"
+    t.string  "legislator_id"
+    t.decimal "project_title_certainty"
+    t.decimal "amount_certainty"
+    t.decimal "funding_purpose_certainty"
+    t.decimal "legislator_id_certainty"
+    t.integer "document_id"
+    t.string  "scribd_url"
+    t.integer "response_count"
+  end
 
   create_table "entities", :force => true do |t|
     t.integer  "letter_id"

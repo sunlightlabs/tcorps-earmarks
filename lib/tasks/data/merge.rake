@@ -6,23 +6,18 @@ namespace :merge do
 
   desc "Produce YAML file of letter analysis of Documents"
   task :responses => :environment do    
-    letters = {}
     Document.all.each do |document|
-      letter = {}
-      letter[:responses] = document.letters_count
-      letter[:scribd_url] = "http://www.scribd.com/doc/#{document.scribd_doc_id}/"
+      earmark = Earmark.new 
+      earmark.document_id = document.id
+      earmark.response_count = document.letters_count
+      earmark.scribd_url = "http://www.scribd.com/doc/#{document.scribd_doc_id}/"
       [:amount, :project_title, :funding_purpose, :legislator_id].each do |field|
-        letter[field], letter["#{field}_matches".to_sym] = best document.letters.map(&field)
+        answer, certainty = best document.letters.map(&field)
+        earmark.send "#{field}=", answer
+        earmark.send "#{field}_certainty=", certainty
       end
-      if letter[:legislator_id] and legislator = Legislator.find_by_id(letter[:legislator_id])
-        letter[:legislator_name] = legislator.name
-        letter[:legislator_bioguide_id] = legislator.bioguide_id
-        letter.delete :legislator_id
-      end
-      letters["document_#{document.id}".to_sym] = letter
+      earmark.save!
     end
-    puts "  Saving #{letters.keys.size} merged responses to responses.yml."
-    save_as_yaml File.join(MERGE_DIR, 'responses.yml'), letters
   end
   
 
@@ -47,13 +42,6 @@ namespace :merge do
       choices << [string, matches] if matches > 1 and !choices.include?([string, matches])
     end
     choices.sort! {|x, y| y[1] <=> x[1]}
-  end
-  
-  def save_as_yaml(filename, data)
-    FileUtils.mkdir_p File.dirname(filename)
-    File.open(filename, 'w') do |file|
-      YAML.dump data, file
-    end
   end
   
 end
