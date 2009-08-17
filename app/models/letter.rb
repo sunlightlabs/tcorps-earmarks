@@ -6,8 +6,6 @@ class Letter < ActiveRecord::Base
   belongs_to :user
   belongs_to :document, :counter_cache => true
 
-  validates_associated :user
-
   validates_associated :entities
   accepts_nested_attributes_for :entities
   
