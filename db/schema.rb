@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090814191051) do
+ActiveRecord::Schema.define(:version => 20090819220341) do
 
   create_table "documents", :force => true do |t|
     t.string   "title"
@@ -44,6 +44,8 @@ ActiveRecord::Schema.define(:version => 20090814191051) do
     t.integer "document_id"
     t.string  "scribd_url"
     t.integer "response_count"
+    t.string  "entities"
+    t.decimal "entities_certainty"
   end
 
   create_table "entities", :force => true do |t|

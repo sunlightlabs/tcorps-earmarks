@@ -1,21 +1,31 @@
-require 'text'
-
 namespace :merge do
 
   MERGE_DIR = "#{RAILS_ROOT}/data/merged"
 
-  desc "Produce YAML file of letter analysis of Documents"
-  task :responses => :environment do    
-    Document.all.each do |document|
+  desc "Merge responses into Earmark objects"
+  task :responses => :environment do
+  
+    Earmark.delete_all
+    Document.all(:limit => 5).each do |document|
       earmark = Earmark.new 
+      
+      # document properties worth keeping
       earmark.document_id = document.id
       earmark.response_count = document.letters_count
       earmark.scribd_url = "http://www.scribd.com/doc/#{document.scribd_doc_id}/"
+      
+      # scalar values
       [:amount, :project_title, :funding_purpose, :legislator_id].each do |field|
         answer, certainty = best document.letters.map(&field)
         earmark.send "#{field}=", answer
         earmark.send "#{field}_certainty=", certainty
       end
+      
+      # entity names and address      
+      entities, certainty = best document.letters.map {|l| l.entities.map {|e| [e.name, e.address].join "\n"}.join("\n\n")}
+      earmark.entities = entities
+      earmark.entities_certainty = certainty
+            
       earmark.save!
     end
   end
@@ -27,10 +37,11 @@ namespace :merge do
   end
   
   def matches(strings, distance = 0)
+    levenshtein = Levenshtein.new
     match = if distance == 0
       lambda {|x, y| x == y}
     else
-      lambda {|x, y| Text::Levenshtein.distance(x.to_s, y.to_s) <= distance}
+      lambda {|x, y| levenshtein.distance(x.to_s, y.to_s) <= distance}
     end
 
     choices = []
