@@ -7,7 +7,7 @@ namespace :merge do
   
     i = 0
     distance = ENV['DISTANCE'].to_i
-    Document.all(:limit => 5).each do |document|
+    Document.all.each do |document|
       puts "  [##{i+1}] Merging responses for Document #{document.id}"
       earmark = Earmark.find_or_initialize_by_document_id document.id
       if earmark.id
@@ -37,15 +37,14 @@ namespace :merge do
     case field
     when :amount, :project_title, :funding_purpose, :legislator_id
       answer, certainty = best earmark.document.letters.map {|l| l.send(field).to_s}, distance
-      earmark.send "#{field}=", answer
-      earmark.send "#{field}_certainty=", certainty
     when :entity_names, :entity_addresses
       entity_field = field.to_s.gsub('entity_', '').singularize
-      
-      values, certainty = best earmark.document.letters.map {|l| l.entities.map {|e| e.send(entity_field)}.join("\n")}, distance
-      earmark.send "#{field}=", values
-      earmark.send "#{field}_certainty=", certainty
+      answer, certainty = best earmark.document.letters.map {|l| l.entities.map {|e| e.send(entity_field)}.join("\n")}, distance
     end
+    
+    earmark.send "#{field}=", answer
+    earmark.send "#{field}_agreement=", certainty
+    earmark.send "#{field}_fuzziness=", distance
   end
 
   def best(strings, distance = 0)

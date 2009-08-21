@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090820182659) do
+ActiveRecord::Schema.define(:version => 20090821053518) do
 
   create_table "documents", :force => true do |t|
     t.string   "title"
@@ -36,18 +36,25 @@ ActiveRecord::Schema.define(:version => 20090820182659) do
     t.string  "project_title"
     t.decimal "amount"
     t.text    "funding_purpose"
-    t.decimal "project_title_certainty"
-    t.decimal "amount_certainty"
-    t.decimal "funding_purpose_certainty"
-    t.decimal "legislator_id_certainty"
+    t.decimal "project_title_agreement"
+    t.decimal "amount_agreement"
+    t.decimal "funding_purpose_agreement"
+    t.decimal "legislator_id_agreement"
     t.integer "document_id"
     t.string  "scribd_url"
     t.integer "response_count"
     t.string  "entity_names"
-    t.decimal "entity_names_certainty"
+    t.decimal "entity_names_agreement"
     t.string  "entity_addresses"
-    t.decimal "entity_addresses_certainty"
+    t.decimal "entity_addresses_agreement"
     t.integer "legislator_id"
+    t.decimal "entity_address_fuzziness"
+    t.integer "project_title_fuzziness"
+    t.integer "amount_fuzziness"
+    t.integer "legislator_id_fuzziness"
+    t.integer "funding_purpose_fuzziness"
+    t.integer "entity_names_fuzziness"
+    t.integer "entity_addresses_fuzziness"
   end
 
   add_index "earmarks", ["document_id"], :name => "index_earmarks_on_document_id"
