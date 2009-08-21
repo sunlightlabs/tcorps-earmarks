@@ -6,7 +6,10 @@ namespace :merge do
   task :responses => :environment do
   
     Earmark.delete_all
-    Document.all(:limit => 5).each do |document|
+    i = 0
+    distance = ENV['DISTANCE'].to_i
+    Document.all.each do |document|
+      puts "  [#{i+1}] Merging responses for Document ##{document.id}"
       earmark = Earmark.new 
       
       # document properties worth keeping
@@ -16,18 +19,23 @@ namespace :merge do
       
       # scalar values
       [:amount, :project_title, :funding_purpose, :legislator_id].each do |field|
-        answer, certainty = best document.letters.map(&field)
+        answer, certainty = best document.letters.map {|l| l.send(field).to_s}, distance
         earmark.send "#{field}=", answer
         earmark.send "#{field}_certainty=", certainty
       end
       
       # entity names and address      
-      entities, certainty = best document.letters.map {|l| l.entities.map {|e| [e.name, e.address].join "\n"}.join("\n\n")}
-      earmark.entities = entities
-      earmark.entities_certainty = certainty
-            
+      names, certainty = best document.letters.map {|l| l.entities.map {|e| e.name}.join("\n")}, distance
+      earmark.entity_names = names
+      earmark.entity_names_certainty = certainty
+      addresses, certainty = best document.letters.map {|l| l.entities.map {|e| e.address}.join("\n")}, distance
+      earmark.entity_addresses = addresses
+      earmark.entity_addresses_certainty = certainty
+      
       earmark.save!
+      i += 1
     end
+    puts "Merged #{i} earmark responses, using distance of #{distance}."
   end
   
 

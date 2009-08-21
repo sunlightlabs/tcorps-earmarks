@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090819220341) do
+ActiveRecord::Schema.define(:version => 20090820182659) do
 
   create_table "documents", :force => true do |t|
     t.string   "title"
@@ -36,7 +36,6 @@ ActiveRecord::Schema.define(:version => 20090819220341) do
     t.string  "project_title"
     t.decimal "amount"
     t.text    "funding_purpose"
-    t.string  "legislator_id"
     t.decimal "project_title_certainty"
     t.decimal "amount_certainty"
     t.decimal "funding_purpose_certainty"
@@ -44,9 +43,15 @@ ActiveRecord::Schema.define(:version => 20090819220341) do
     t.integer "document_id"
     t.string  "scribd_url"
     t.integer "response_count"
-    t.string  "entities"
-    t.decimal "entities_certainty"
+    t.string  "entity_names"
+    t.decimal "entity_names_certainty"
+    t.string  "entity_addresses"
+    t.decimal "entity_addresses_certainty"
+    t.integer "legislator_id"
   end
+
+  add_index "earmarks", ["document_id"], :name => "index_earmarks_on_document_id"
+  add_index "earmarks", ["legislator_id"], :name => "index_earmarks_on_legislator_id"
 
   create_table "entities", :force => true do |t|
     t.integer  "letter_id"
